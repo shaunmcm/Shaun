@@ -23,7 +23,7 @@ User wants opening hooks that hit like: "Your kid doesn't become broke later, th
 - Insights: try GET /{media-id}/insights?metric=reach,saved,shares,total_interactions,ig_reels_avg_watch_time for Reels; if not permitted, use like_count/comments_count only and say so.
 
 ## Schedule
-- Daily Reel 7:30 PM PT. Carousel Mon/Wed/Fri 12:00 PM PT. 1-2 Story frames daily (~9:30 AM teaser of tonight's Reel; ~5:00 PM question/tip frame).
+- USER UPDATE Oct 20 (3:32 PM): EVERY DAY = 2 Reels + 1 carousel. Slots: Reel A 12:00 PM PT, carousel 4:30 PM PT, Reel B 7:30 PM PT (both Reels use the day's theme from different angles/mechanisms). Plus 1-2 Story frames (~9:30 AM teaser, ~6:00 PM tip/question). The OpusClip clip run at 10 AM is separate and continues until Nov 15.
 - Weekday themes: Mon Allowance Mistake · Tue Teaching Kids to Save · Wed Money Quotes With Practical Lessons · Thu Digital Spending & Gaming Currency · Fri Real-Life Money Decisions · Sat Parenting Money Myths · Sun Family Money Challenges.
 - Rotate the 8 hook mechanisms; no mechanism twice in a row. Check topic_log.tsv: nothing substantially similar to the last 60 days (including the 30-day clip captions: allowance-gone-day-one, refilling allowance, 24-hour rule, Robux cost, 3 questions before buying, spend/keep envelopes, $1/day allowance, monthly digital-purchase total, saving-everything, goal-based saving, kids learn by watching you).
 
