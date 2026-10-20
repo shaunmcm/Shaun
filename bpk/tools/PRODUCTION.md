@@ -2,6 +2,12 @@
 
 The user's full brief is MASTER_PROMPT.txt in this folder. It is the top-level operating system. This file is the house method that implements it. Newest USER UPDATE blocks (add them at the top) win.
 
+## USER UPDATE Oct 20 (3:24 PM) — HOOK + CTA STYLE (overrides older hook guidance)
+User wants opening hooks that hit like: "Your kid doesn't become broke later, they become broke now" / "Your kid can build rich habits right now on their own". Every hook must be EMOTIONALLY STRONG + CURIOSITY-DRIVEN, framed around the child's future money life being shaped TODAY (broke-later vs habits-now, identity, stakes), and must still name the specific problem the post solves.
+- Hook formulas: "Broke adults start as kids who never learned ___." · "Your kid isn't going broke at 25. It's starting right now, with ___." · "The habit that keeps kids broke later shows up at age __: ___." · "Rich habits don't start with a paycheck. They start with ___." · "Your kid can start building rich habits today, with ___."
+- Honesty guardrails still apply: no promises that a kid will "be rich", no invented stats; "rich habits" / "broke habits" language is fine.
+- Every post ends with BOTH CTAs: the book ("Get our kids' money activity & coloring book, link in bio") AND follow ("Follow @kids_and_money_554 for a new money lesson every day"). Reels: last scene shows both. Carousels: last slide shows both. Captions: book CTA paragraph + follow line.
+
 ## Account + publishing (verified Oct 20, 2026)
 - Instagram: @kids_and_money_554 ("Kids & Money"), instagramPageId **17841440839365671**. Post ONLY here. Never post to Odds Visualized (17841423585967011), Money Mapped (17841413335234840), Unspoken at Work (17841420504964559) or any other account.
 - Publish via Zapier InstagramBusinessCLIAPI: Reels = `publish_video` (tool instagram_for_business_publish_video); carousels = `publish_media_v2` (tool instagram_for_business_publish_photo_s); Stories = Make API Mutating Request: POST https://graph.facebook.com/v19.0/17841440839365671/media with querystring media_type=STORIES & image_url=<raw url>, then POST .../media_publish with creation_id.

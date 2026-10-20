@@ -35,8 +35,8 @@ def d7(img):
     return cta_scene(img, 540, 1000)
 
 SPEC = {"id": "C001_freechoice", "slides": [
-    {"text": "Making your kid save *every* dollar? Here's what it skips.", "size": 80, "swipe": True,
-     "sub": "And a 2-question habit that fixes it.", "draw": d1},
+    {"text": "Saving *every* dollar won't keep your kid from going *broke later*.", "size": 78, "swipe": True,
+     "sub": "They need practice with this too. Swipe for the 2-question fix.", "draw": d1},
     {"kicker": "WHY IT MATTERS", "text": "Kids learn money by *making choices*.", "size": 74,
      "sub": "If every dollar is locked away, they never practice deciding what's worth it.", "draw": d2},
     {"kicker": "THE MISSING HALF", "text": "Saving is a skill. So is *spending well*.", "size": 74, "draw": d3},
@@ -46,6 +46,6 @@ SPEC = {"id": "C001_freechoice", "slides": [
      "sub": "Say they bought $3 of slime. No judging, just curious.", "draw": d5},
     {"kicker": "THE PAYOFF", "text": "Small regrets are *cheap lessons*.", "size": 78,
      "sub": "A $3 \"not worth it\" now teaches what a $3,000 one would later.", "draw": d6},
-    {"text": "Want more ways to make money lessons *hands-on*?", "size": 74,
-     "sub": "Explore our kids' money activity & coloring book through the link in our bio.", "draw": d7},
+    {"text": "Want your kid building *rich habits* now?", "size": 76,
+     "sub": "Get our kids' money activity & coloring book (link in bio) and *follow* *@kids_and_money_554* for a new lesson every day.", "draw": d7},
 ]}
