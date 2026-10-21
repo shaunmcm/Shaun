@@ -6,6 +6,8 @@ for i,s in enumerate(m.SPEC["scenes"]):
     words=len(re.sub(r"[*\"]","",s["text"]+" "+s.get("sub","")).split())
     need=max(2.5,0.4*words)
     print(f"scene {i+1}: {words} words, {s['dur']}s, need {need:.1f}s ->", "OK" if s["dur"]>=need-0.05 else "FAIL")
+tot=sum(s["dur"] for s in m.SPEC["scenes"])
+print(f"total {tot:.1f}s ->", "OK" if tot<=12.0 else "FAIL (Reels must be <= 12 s)")
 mp4, total, mi = reel.render(m.SPEC, "out")
 starts=[0]
 for s in m.SPEC["scenes"]: starts.append(starts[-1]+s["dur"])

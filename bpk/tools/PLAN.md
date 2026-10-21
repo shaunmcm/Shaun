@@ -27,3 +27,4 @@ Slots: Reel A 12:00 PM · Carousel 4:30 PM · Reel B 7:30 PM (PT). All end with 
 
 Stories daily: ~9:30 AM teaser, ~6:00 PM tip/question (plain frames, "link in bio").
 Carousels: max 4 slides, CTA 'Comment BOOK' on all posts (user, Oct 21).
+Reels: 12 s max, emotion-first curiosity hooks (user, Oct 21 12:58 AM).

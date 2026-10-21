@@ -2,6 +2,11 @@
 
 The user's full brief is MASTER_PROMPT.txt in this folder. It is the top-level operating system. This file is the house method that implements it. Newest USER UPDATE blocks (add them at the top) win.
 
+## ⭐ PERMANENT USER RULE (Oct 21, 12:58 AM) — REELS ≤ 12 SECONDS, EMOTION-FIRST (overrides older Reel length/scene counts)
+- Every Reel is 12.0 s or shorter (render_reel.py fails anything longer). Typical shape, 4 screens: (1) emotional open-question hook ~3 s → (2) loop payoff + next question ~3 s → (3) outcome payoff with the number/visual ~3 s → (4) "Comment BOOK" CTA ~2.8 s.
+- Hooks: emotionally driven (worry, pride, guilt-free relief, "your kid thinks…"), curiosity-driven open question, ≤ 8 words.
+- Readability still applies (≥0.4 s/word, ≥2.5 s/screen) → the whole Reel has ~30 words max. Cut words, never speed up. Keep animated props so something changes every 2–3 s.
+
 ## ⭐ PERMANENT USER RULE (Oct 21, 12:53 AM) — 4-SLIDE CAROUSELS + "COMMENT BOOK" CTA (overrides older carousel length + CTA wording)
 - Carousels: MAX 4 slides. Slide 1 = hook (open question). Slides 2–3 = curiosity loop: each pays off the last question and opens the next (slide 3 delivers the outcome). Slide 4 = CTA.
 - CTA on EVERY carousel AND Reel (last scene/slide) and caption: "Comment BOOK for the Money Smart Kids Coloring Book link" (+ follow line). Lead the whole post into it.

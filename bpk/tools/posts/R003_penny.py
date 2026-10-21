@@ -24,17 +24,9 @@ def s6(img, t):
     d = ImageDraw.Draw(img); pill(d, 540, 1380, 'Comment BOOK', size=60, bg=TERRA, alpha=int(255*min(1, t*3)))
     return img
 
-SPEC = {"id": "R003_penny", "music": {"style": "playful", "seed": 303}, "scenes": [
-    {"dur": 5.2, "instant": True, "text": "\"A penny saved is a penny earned.\"", "size": 82,
-     "sub": "So why do kids *ignore* it?", "sub_size": 54, "draw": s1},
-    {"dur": 6.0, "text": "One coin feels like *nothing* to a kid.", "size": 74,
-     "sub": "So how do you make it count?", "sub_size": 48, "draw": s2},
-    {"dur": 6.8, "kicker": "TRY THIS", "text": "Save *25¢* a day. Mark a goal line on the jar.", "size": 68,
-     "sub": "How long until it's real money?", "sub_size": 46, "draw": s3},
-    {"dur": 6.0, "text": "Day 7: *$1.75.* Day 30: *$7.50.*", "size": 76,
-     "sub": "Watch the line get closer.", "sub_size": 48, "draw": s4},
-    {"dur": 5.2, "text": "Day 60: *$15.* Goal hit.", "size": 80,
-     "sub": "Same coins they used to ignore.", "sub_size": 48, "draw": s5},
-    {"dur": 8.0, "text": "Want them practicing this on *paper*?", "size": 74,
-     "sub": "Comment *BOOK* for the *Money* *Smart* *Kids* *Coloring* *Book* link. Follow for more.", "sub_size": 48, "draw": s6},
+SPEC = {"id": "R003_penny", "music": {"style": "playful", "seed": 313}, "scenes": [
+    {"dur": 3.0, "instant": True, "text": "Your kid thinks pennies are *worthless?*", "size": 88, "draw": s1},
+    {"dur": 3.4, "text": "25¢ a day. Watch the *jar.*", "size": 84, "draw": lambda img, t: coin_jar_line(img, 470, 1190, t=t, start=0, end=.5, amount_from=0, amount_to=7.5, day_from=0, day_to=30)},
+    {"dur": 2.8, "text": "Day 60: *$15.* Goal hit.", "size": 88, "draw": s5},
+    {"dur": 2.8, "text": "Comment *BOOK* for the coloring book link.", "size": 76, "draw": s6},
 ]}
