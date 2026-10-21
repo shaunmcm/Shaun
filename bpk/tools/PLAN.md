@@ -26,3 +26,4 @@ Slots: Reel A 12:00 PM · Carousel 4:30 PM · Reel B 7:30 PM (PT). All end with 
 | Mon | 7:30 PM | Reel R014 | 5 Transform | "How much allowance? Start with this simple age rule of thumb." | Common $1-per-year-of-age starting point, adjust to family |
 
 Stories daily: ~9:30 AM teaser, ~6:00 PM tip/question (plain frames, "link in bio").
+Carousels: max 4 slides, CTA 'Comment BOOK' on all posts (user, Oct 21).

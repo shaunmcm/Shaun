@@ -2,6 +2,13 @@
 
 The user's full brief is MASTER_PROMPT.txt in this folder. It is the top-level operating system. This file is the house method that implements it. Newest USER UPDATE blocks (add them at the top) win.
 
+## ⭐ PERMANENT USER RULE (Oct 21, 12:53 AM) — 4-SLIDE CAROUSELS + "COMMENT BOOK" CTA (overrides older carousel length + CTA wording)
+- Carousels: MAX 4 slides. Slide 1 = hook (open question). Slides 2–3 = curiosity loop: each pays off the last question and opens the next (slide 3 delivers the outcome). Slide 4 = CTA.
+- CTA on EVERY carousel AND Reel (last scene/slide) and caption: "Comment BOOK for the Money Smart Kids Coloring Book link" (+ follow line). Lead the whole post into it.
+- Book link (user, Oct 21): https://a.co/d/0fY8Dguh — this replaces older a.co links everywhere.
+- Comment-to-link system: an hourly scheduled task ("BrokeProofKids BOOK comment replies") scans comments on recent posts for the word BOOK and replies publicly so nobody is missed. The Zapier Instagram connection has instagram_manage_comments but NOT instagram_manage_messages, so it cannot DM, and links in comments aren't clickable — the reply points to the bio link. True comment→DM with a clickable link needs ManyChat (user to connect). Once ManyChat is live, keep the CTA, and switch the hourly task to only catch anything ManyChat missed.
+- Keep everything else from the rules below (Outcome + Curiosity Loops, readability, hooks, music, visuals, 2 Reels + 1 carousel/day).
+
 ## ⭐ PERMANENT USER RULE (Oct 20, 5:06 PM) — OUTCOME + CURIOSITY LOOPS (applies to EVERY Reel and carousel; top priority)
 Keep niche, style, visuals, pacing, CTAs, hashtags and post counts the same. On top of that:
 1. OUTCOME FIRST: before writing, write one sentence in the production record: "By the end of this post, viewers will know / feel / be able to ___." Cut anything that doesn't serve it.

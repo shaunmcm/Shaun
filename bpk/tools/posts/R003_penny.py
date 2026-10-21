@@ -20,7 +20,9 @@ def s5(img, t):
         d = ImageDraw.Draw(img); check(d, 470, 1190, r=70, alpha=int(255*min(1,(t-.8)/.1)))
     return img
 def s6(img, t):
-    return cta_scene(img, 540, 1250, t)
+    img = cta_scene(img, 540, 1200, t)
+    d = ImageDraw.Draw(img); pill(d, 540, 1380, 'Comment BOOK', size=60, bg=TERRA, alpha=int(255*min(1, t*3)))
+    return img
 
 SPEC = {"id": "R003_penny", "music": {"style": "playful", "seed": 303}, "scenes": [
     {"dur": 5.2, "instant": True, "text": "\"A penny saved is a penny earned.\"", "size": 82,
@@ -33,6 +35,6 @@ SPEC = {"id": "R003_penny", "music": {"style": "playful", "seed": 303}, "scenes"
      "sub": "Watch the line get closer.", "sub_size": 48, "draw": s4},
     {"dur": 5.2, "text": "Day 60: *$15.* Goal hit.", "size": 80,
      "sub": "Same coins they used to ignore.", "sub_size": 48, "draw": s5},
-    {"dur": 7.6, "text": "Want them practicing this on *paper*?", "size": 74,
-     "sub": "Get the *Money* *Smart* *Kids* *Coloring* *Book*. Link in bio. Follow for more.", "sub_size": 48, "draw": s6},
+    {"dur": 8.0, "text": "Want them practicing this on *paper*?", "size": 74,
+     "sub": "Comment *BOOK* for the *Money* *Smart* *Kids* *Coloring* *Book* link. Follow for more.", "sub_size": 48, "draw": s6},
 ]}
