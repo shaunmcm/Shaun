@@ -1,0 +1,278 @@
+{
+  "day": "2026-10-21",
+  "account": "Smzz_220",
+  "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+  "reels": {
+    "R001_timer": {
+      "slot": "12:00 PM PT",
+      "type": "Reel 1 - Hook / Gameplay Action",
+      "outcome": "By the end, viewers know Impact Zero is a timed, one-mistake obstacle course game and want to prove they can survive it.",
+      "source": "gp_v5 0-13s + 23.5-30.5s (clean gameplay band, wishlist/date text cropped out)",
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "What happens when the timer hits ZERO?"
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "The level takes you out. No second chance."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "But the timer isn't the hard part..."
+        },
+        {
+          "t": [
+            8.5,
+            11.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Every RED block is instant death."
+        },
+        {
+          "t": [
+            11.5,
+            14.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So how far can you actually get?"
+        },
+        {
+          "t": [
+            14.5,
+            17.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "35 levels. Each one hits different."
+        },
+        {
+          "t": [
+            17.0,
+            20.0
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Survive level 5. Prove it."
+        }
+      ],
+      "voiceover": "What happens when the timer hits zero? The level takes you out. No second chance. But the timer isn't the hard part. Every red block is instant death. So how far can you actually get? Thirty-five levels, and each one hits different. Comment PLAY, I'll send you the link. Survive level five and prove it.",
+      "caption": "What happens when the timer hits zero in Impact Zero?\n\nThe level takes you out. No warning, no second chance.\n\nBut the timer was never the hard part. The red blocks are. One touch and the run is over, and the courses only get closer to impossible the deeper you go.\n\n35 levels. Each one is a different obstacle course. Most people don't get through the early ones clean.\n\nComment PLAY and I'll send you the App Store link (it's also in my bio). Then come back and tell me the level that stopped you.\n\n#impactzero #indiegame #mobilegame #iosgames #indiedev"
+    },
+    "R002_code": {
+      "slot": "4:30 PM PT",
+      "type": "Reel 2 - Behind the Scenes / Dev Journey",
+      "outcome": "By the end, viewers feel the dev's intent (death must feel fair) and see the game is real, finished and cheap.",
+      "source": "v4_bts (Unity editor + code + red cube footage, 12.4s) then gp_v1 clean band (7.6s); audio bed from gp_v5",
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "This is the code that ENDS your run."
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One timer. Zero means game over."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "But the timer was never the real problem..."
+        },
+        {
+          "t": [
+            8.5,
+            11.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Making death feel FAIR was."
+        },
+        {
+          "t": [
+            11.5,
+            14.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Too easy, you quit. Too hard, you quit."
+        },
+        {
+          "t": [
+            14.5,
+            17.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "So: 35 hand-built levels. Zero filler."
+        },
+        {
+          "t": [
+            17.0,
+            20.0
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Live on iPhone, $2.99. Comment PLAY for the link."
+        }
+      ],
+      "voiceover": "This is the code that ends your run. One timer. Zero means game over. But the timer was never the real problem. Making death feel fair was. Too easy and you quit. Too hard and you quit. So: thirty-five hand-built levels, zero filler. It's live on iPhone for two ninety-nine. Comment PLAY and I'll send you the link.",
+      "caption": "This is the code that ends your run in Impact Zero.\n\nOne timer. When it hits zero, the level takes you out.\n\nBut the timer was never the real problem while building this. Making death feel fair was. Too easy and you get bored. Too hard and you rage quit. The whole game lives in that gap.\n\nSo instead of padding it out, it's 35 hand-built levels and nothing else. Every course is there because it earned its spot.\n\nIt's live on iPhone right now for $2.99. Comment PLAY and I'll send you the link (also in bio).\n\n#indiedev #gamedev #impactzero #indiegame #iosgames"
+    },
+    "R003_challenge": {
+      "slot": "7:30 PM PT",
+      "type": "Reel 3 - Community / Challenge",
+      "outcome": "By the end, viewers accept a level challenge and comment PLAY plus the level they're stuck on.",
+      "source": "v2_main 0-13.7s (app icon tap, '35 unique and challenging levels', 'Can you do it?') + new $2.99 poster 5.5s (old $6.99 / 9-9-26 ending removed)",
+      "cards": [
+        {
+          "t": [
+            0.0,
+            4.8
+          ],
+          "zone": "bottom",
+          "style": "hook",
+          "text": "35 levels. One timer. How far can YOU get?"
+        },
+        {
+          "t": [
+            4.8,
+            7.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Level 1 looks easy. It isn't."
+        },
+        {
+          "t": [
+            7.5,
+            10.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Because every level changes the rules on you."
+        },
+        {
+          "t": [
+            10.0,
+            13.7
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Finish before the timer, or it finishes you."
+        },
+        {
+          "t": [
+            13.7,
+            16.2
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So what level are YOU stuck on?"
+        },
+        {
+          "t": [
+            16.2,
+            19.2
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then comment your level."
+        }
+      ],
+      "voiceover": "Thirty-five levels. One timer. How far can you get? Level one looks easy. It isn't. Because every level changes the rules on you. Finish before the timer, or it finishes you. So what level are you stuck on? Comment PLAY, I'll send the link. Then come back and comment your level.",
+      "caption": "35 levels. One timer. How far can you actually get in Impact Zero?\n\nLevel 1 looks easy. It isn't. Every level changes the rules on you, and the only rule that never changes is this one: finish before the timer, or it finishes you.\n\nHere's the challenge. Comment PLAY and I'll send you the App Store link ($2.99 on iPhone, link in bio too). Play it tonight. Then come back and comment the level number that stopped you.\n\nI'll be in the comments. Highest level wins bragging rights.\n\n#impactzero #mobilegaming #iosgames #indiegame #gamechallenge",
+      "label_until": 13.68
+    }
+  },
+  "carousel": {
+    "C001_timer": {
+      "slot": "2:15 PM PT",
+      "type": "Carousel - Feature Breakdown",
+      "outcome": "By the end, viewers understand the timer + red-block + 35-level loop and want to find out which level breaks them.",
+      "slides": [
+        {
+          "head": "Why does Impact Zero punish you for being slow?",
+          "sub": "",
+          "visual": "keyart"
+        },
+        {
+          "head": "Because the timer isn't a score. It's a countdown to your death.",
+          "sub": "But the timer isn't what gets most players...",
+          "visual": "gp_v5@12"
+        },
+        {
+          "head": "Red blocks are. Touch one and the run ends instantly.",
+          "sub": "So why not just go slow and careful?",
+          "visual": "gp_v5@5"
+        },
+        {
+          "head": "You can't. Slow means the clock wins.",
+          "sub": "So you need speed AND precision. Which is harder?",
+          "visual": "gp_v1@9"
+        },
+        {
+          "head": "Neither. The course is.",
+          "sub": "Every level is a different obstacle course.",
+          "visual": "gp_v5@3"
+        },
+        {
+          "head": "35 of them. No repeats.",
+          "sub": "So what makes level 35 different from level 1?",
+          "visual": "gp_v1@4"
+        },
+        {
+          "head": "The late courses are nearly impossible.",
+          "sub": "So can anyone actually beat it?",
+          "visual": "gp_v5@16"
+        },
+        {
+          "head": "Yes. Every death teaches you the course.",
+          "sub": "Which is why 'one more try' never feels like enough.",
+          "visual": "gp_v1@12"
+        },
+        {
+          "head": "Out now on iPhone. $2.99.",
+          "sub": "So... what level is going to stop you?",
+          "visual": "gp_v5@27"
+        },
+        {
+          "head": "Comment PLAY and I'll send you the link.",
+          "sub": "Then come back and tell me the level that broke you.",
+          "visual": "poster"
+        }
+      ],
+      "caption": "Why does Impact Zero punish you for being slow?\n\nBecause the timer isn't a score. It's a countdown. Hit zero and the level takes you out.\n\nBut the timer isn't what gets most players. The red blocks are. One touch, run over. So you can't go slow and you can't go sloppy. Speed and precision, on every one of 35 hand-built obstacle courses, and the late ones are nearly impossible.\n\nThat's the loop: die, learn the course, go again. One more try never feels like enough.\n\nIt's out now on iPhone for $2.99. Comment PLAY and I'll send you the App Store link (also in bio). Then come back and tell me the level that broke you.\n\n#impactzero #indiegame #mobilegame #iosgames #indiedev"
+    }
+  }
+}
