@@ -214,3 +214,77 @@ PROPS = {
     "jar": jar, "tag": tag, "tracker": tracker, "wallet_empty": wallet_empty,
     "calendar": calendar, "split_bar": split_bar, "cta": cta_scene,
 }
+
+
+def budget_card(img, cx, cy, t=1.0, title="October plan (example)", rows=(("Groceries", 100, 100), ("Gas", 100, 100), ("Fun money", 40, 28)), highlight=2, foot=None):
+    """Screenshot-style family budget card. rows = (label, budget, spent). Bars animate with t."""
+    h = 150 + 120 * len(rows) + (70 if foot else 0)
+    box = [cx - 420, cy - h / 2, cx + 420, cy + h / 2]
+    img = card(img, box, fill=CREAM)
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([box[0], box[1], box[2], box[1] + 100], radius=40, fill=SAGE_D + (255,))
+    d.rectangle([box[0], box[1] + 60, box[2], box[1] + 100], fill=SAGE_D + (255,))
+    f = font(F_BOLD, 40); tw = d.textlength(title, font=f)
+    d.text((cx - tw / 2, box[1] + 26), title, font=f, fill=CREAM + (255,))
+    y = box[1] + 130
+    for i, (lab, bud, spent) in enumerate(rows):
+        hl = i == highlight
+        d.text((box[0] + 40, y), lab, font=font(F_BOLD, 38), fill=(TERRA if hl else INK) + (255,))
+        left = bud - spent
+        rt = f"${left} left" if hl else f"${bud}"
+        fr = font(F_XB if hl else F_SEMI, 38); rw = d.textlength(rt, font=fr)
+        d.text((box[2] - 40 - rw, y), rt, font=fr, fill=(TERRA if hl else SAGE_D) + (255,))
+        bx0, bx1 = box[0] + 40, box[2] - 40
+        d.rounded_rectangle([bx0, y + 58, bx1, y + 80], radius=11, fill=(225, 230, 215, 255))
+        p = ease(t) * spent / bud
+        if p > 0:
+            d.rounded_rectangle([bx0, y + 58, bx0 + (bx1 - bx0) * p, y + 80], radius=11, fill=(TERRA if hl else SAGE) + (255,))
+        y += 120
+    if foot:
+        fs = font(F_BOLD, 36); tw = d.textlength(foot, font=fs)
+        d.text((cx - tw / 2, y + 4), foot, font=fs, fill=INK + (255,))
+    return img
+
+
+def coin_jar_line(img, cx, cy, t=1.0, start=0.0, end=1.0, goal_label="$15 goal", amount_from=0.0, amount_to=15.0, day_from=0, day_to=60):
+    """Jar with a drawn goal line; coin fill rises from start->end fraction; live $ and day counter pill."""
+    w, h = 320, 420
+    x0, y0, x1, y1 = cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2
+    ov = Image.new("RGBA", img.size, (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+    d.rounded_rectangle([x0 + 34, y0 - 50, x1 - 34, y0 + 8], radius=14, fill=BROWN + (255,))
+    d.rounded_rectangle([x0, y0, x1, y1], radius=50, fill=(255, 255, 255, 60))
+    frac = start + (end - start) * ease(t)
+    fill_top = y1 - 20 - (h - 60) * frac
+    if frac > 0:
+        d.rounded_rectangle([x0 + 14, fill_top, x1 - 14, y1 - 14], radius=36, fill=GOLD + (230,))
+        for k in range(int((y1 - fill_top) / 40)):
+            yy = y1 - 40 - k * 40
+            for xx in (x0 + 70, cx, x1 - 70):
+                d.ellipse([xx - 26, yy - 12, xx + 26, yy + 12], outline=(190, 140, 50, 255), width=3)
+    d.rounded_rectangle([x0, y0, x1, y1], radius=50, outline=(255, 255, 255, 240), width=7)
+    gy = y0 + 40
+    for xx in range(int(x0 - 20), int(x1 + 20), 30):
+        d.line([xx, gy, xx + 16, gy], fill=TERRA + (255,), width=6)
+    d.text((x1 + 30, gy - 24), goal_label, font=font(F_XB, 42), fill=TERRA + (255,))
+    img = Image.alpha_composite(img, ov)
+    d = ImageDraw.Draw(img)
+    amt = amount_from + (amount_to - amount_from) * ease(t)
+    day = int(round(day_from + (day_to - day_from) * ease(t)))
+    pill(d, cx - 150, y1 + 40, f"Day {day}", size=40, bg=INK)
+    pill(d, cx + 130, y1 + 40, f"${amt:,.2f}", size=40, bg=TERRA)
+    return img
+
+
+def swap_card(img, cx, cy, old, new, t=1.0):
+    """Old phrase (struck through) -> new phrase. Screenshot-chat style."""
+    img = bubble(img, cx - 40, cy - 150, old, w=820, size=46, fill=SAND, tail="left")
+    d = ImageDraw.Draw(img)
+    fo = font(F_BOLD, 46)
+    # strike line across the old bubble center
+    d.line([cx - 400, cy - 150, cx + 320, cy - 150], fill=TERRA + (230,), width=8)
+    if t > 0.25:
+        a = int(255 * min(1, (t - .25) / .2))
+        img = bubble(img, cx + 40, cy + 120, new, w=820, size=46, fill=CREAM, tail="right", alpha=a)
+        d = ImageDraw.Draw(img)
+        check(d, cx + 420, cy + 40, r=40, alpha=a)
+    return img

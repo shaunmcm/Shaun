@@ -26,7 +26,8 @@ User wants opening hooks that hit like: "Your kid doesn't become broke later, th
 - The separate 30-day OpusClip clip run (Day N clips, 10:00 AM PT, ends Nov 15) also posts to this account. Leave it alone; don't duplicate its topics.
 
 ## Known limits (tell the user, don't fake)
-- Bio link: the API cannot edit it. As of Oct 20 the bio link was the YouTube channel; user was asked to set https://a.co/d/01qxpxia. Check `website` field each night; if still not Amazon, mention it in the daily report.
+- Bio link: the API cannot edit it. As of Oct 21 the bio link is an Amazon short link (https://a.co/d/06u0xMOP — different share code from the brief's https://a.co/d/01qxpxia; user set it). Check `website` each night; report only if it stops being an a.co / amazon link.
+- Insights: GET /{media}/insights returns '(#10) Application does not have permission' — use like_count/comments_count only.
 - Story link stickers: NOT supported by the API. Stories post as plain frames; say "link in bio" on them.
 - Comment-to-DM: no integration. Never write "Comment BOOK".
 - Amazon listing could not be opened (robots block). Never describe specific pages, activities, ratings, prices or reviews of the book. Name: Money Smart Kids Coloring Book (user, Oct 20). Describe it only as a kids' money activity & coloring book until the user supplies contents.
