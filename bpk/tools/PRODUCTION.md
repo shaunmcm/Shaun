@@ -2,11 +2,21 @@
 
 The user's full brief is MASTER_PROMPT.txt in this folder. It is the top-level operating system. This file is the house method that implements it. Newest USER UPDATE blocks (add them at the top) win.
 
+## ⭐ PERMANENT USER RULE (Oct 20, 5:06 PM) — OUTCOME + CURIOSITY LOOPS (applies to EVERY Reel and carousel; top priority)
+Keep niche, style, visuals, pacing, CTAs, hashtags and post counts the same. On top of that:
+1. OUTCOME FIRST: before writing, write one sentence in the production record: "By the end of this post, viewers will know / feel / be able to ___." Cut anything that doesn't serve it.
+2. HOOK: emotionally strong AND built around an open question (e.g. "...so what should you say instead?").
+3. LOOPS all the way through: open a question → pay it off → open the next question. Each scene/slide = payoff of the last question + the next open question (often in the sub line). The LAST payoff delivers the outcome, then the ending.
+4. NEW EVERY 2–4 s: each beat adds a number, an example, a screenshot-style visual (receipt, app screen, price tag, chat bubble) or a short story beat. Animate props so something changes within each scene.
+5. EMOTION + CURIOSITY + PROOF: every post has all three; proof = real or clearly-labeled example numbers only (no invented stats). Cut any beat that gives none of them.
+6. READABILITY: scene duration ≥ 0.4 s × words on screen (text + sub), minimum 2.5 s per screen, simple words. If it runs long, CUT beats/words — never speed up. render_reel.py prints a timing check; fix any FAIL.
+7. BOOK CTA: the product is named the **Money Smart Kids Coloring Book**. Every Reel/carousel/caption ends with "Get the Money Smart Kids Coloring Book — link in bio" (+ the follow line). The whole post should build toward it: the final loop's payoff should make practicing at home the natural next step (e.g. "want them practicing this on paper?") → CTA. Still don't describe specific pages/contents unless the user supplies them.
+
 ## USER UPDATE Oct 20 (3:24 PM) — HOOK + CTA STYLE (overrides older hook guidance)
 User wants opening hooks that hit like: "Your kid doesn't become broke later, they become broke now" / "Your kid can build rich habits right now on their own". Every hook must be EMOTIONALLY STRONG + CURIOSITY-DRIVEN, framed around the child's future money life being shaped TODAY (broke-later vs habits-now, identity, stakes), and must still name the specific problem the post solves.
 - Hook formulas: "Broke adults start as kids who never learned ___." · "Your kid isn't going broke at 25. It's starting right now, with ___." · "The habit that keeps kids broke later shows up at age __: ___." · "Rich habits don't start with a paycheck. They start with ___." · "Your kid can start building rich habits today, with ___."
 - Honesty guardrails still apply: no promises that a kid will "be rich", no invented stats; "rich habits" / "broke habits" language is fine.
-- Every post ends with BOTH CTAs: the book ("Get our kids' money activity & coloring book, link in bio") AND follow ("Follow @kids_and_money_554 for a new money lesson every day"). Reels: last scene shows both. Carousels: last slide shows both. Captions: book CTA paragraph + follow line.
+- Every post ends with BOTH CTAs: the book ("Get the Money Smart Kids Coloring Book, link in bio") AND follow ("Follow @kids_and_money_554 for a new money lesson every day"). Reels: last scene shows both. Carousels: last slide shows both. Captions: book CTA paragraph + follow line.
 
 ## Account + publishing (verified Oct 20, 2026)
 - Instagram: @kids_and_money_554 ("Kids & Money"), instagramPageId **17841440839365671**. Post ONLY here. Never post to Odds Visualized (17841423585967011), Money Mapped (17841413335234840), Unspoken at Work (17841420504964559) or any other account.
@@ -19,7 +29,7 @@ User wants opening hooks that hit like: "Your kid doesn't become broke later, th
 - Bio link: the API cannot edit it. As of Oct 20 the bio link was the YouTube channel; user was asked to set https://a.co/d/01qxpxia. Check `website` field each night; if still not Amazon, mention it in the daily report.
 - Story link stickers: NOT supported by the API. Stories post as plain frames; say "link in bio" on them.
 - Comment-to-DM: no integration. Never write "Comment BOOK".
-- Amazon listing could not be opened (robots block). Never describe specific pages, activities, ratings, prices or reviews of the book. Call it "our kids' money activity & coloring book" only, until the user supplies details.
+- Amazon listing could not be opened (robots block). Never describe specific pages, activities, ratings, prices or reviews of the book. Name: Money Smart Kids Coloring Book (user, Oct 20). Describe it only as a kids' money activity & coloring book until the user supplies contents.
 - Insights: try GET /{media-id}/insights?metric=reach,saved,shares,total_interactions,ig_reels_avg_watch_time for Reels; if not permitted, use like_count/comments_count only and say so.
 
 ## Schedule

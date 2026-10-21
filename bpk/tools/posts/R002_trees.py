@@ -60,16 +60,18 @@ def s5(img, t):
 def s6(img, t):
     return cta_scene(img, 540, 1250, t)
 
+# OUTCOME: By the end, parents will be able to turn any "can I have it?" into a lesson about what money costs in time.
 SPEC = {"id": "R002_trees", "music": {"style": "piano", "seed": 202}, "scenes": [
-    {"dur": 4.2, "instant": True, "text": "Broke adults grew up hearing *\"money doesn't grow on trees.\"*", "size": 78,
-     "sub": "Say *this* instead.", "sub_size": 56, "draw": s1},
-    {"dur": 4.6, "text": "It ends the talk. Your kid learns *nothing* about where money comes from.", "size": 66, "draw": s2},
-    {"dur": 5.2, "kicker": "SAY THIS INSTEAD", "text": "\"Let's see how many *weeks* that costs.\"", "size": 74,
-     "sub": "Turn the price into time.", "sub_size": 46, "draw": s3},
-    {"dur": 6.8, "text": "$24 toy. $3 allowance *per week*.", "size": 70,
+    {"dur": 4.4, "instant": True, "text": "\"Money doesn't grow on *trees.*\"", "size": 84,
+     "sub": "Why does it raise *broke* adults?", "sub_size": 52, "draw": s1},
+    {"dur": 5.4, "text": "It ends the talk. Kids learn *nothing*.", "size": 70,
+     "sub": "So what do you say *instead?*", "sub_size": 48, "draw": s2},
+    {"dur": 5.4, "kicker": "SAY THIS", "text": "\"Let's see how many *weeks* it costs.\"", "size": 74,
+     "sub": "How does a kid count that?", "sub_size": 46, "draw": s3},
+    {"dur": 4.8, "text": "$24 toy. $3 a week.", "size": 80,
      "sub": "Count the weeks *together*.", "sub_size": 48, "draw": s4},
-    {"dur": 5.8, "text": "Now money has a *real cost*: time.", "size": 72,
-     "sub": "And *they* decide if it's worth 8 weeks.", "sub_size": 46, "draw": s5},
-    {"dur": 5.4, "text": "Build *rich habits* now, not later.", "size": 74,
-     "sub": "Get our kids' money activity & coloring book (link in bio) and *follow* for a new lesson every day.", "sub_size": 44, "draw": s6},
+    {"dur": 5.6, "text": "*8 weeks* of allowance. Still want it?", "size": 74,
+     "sub": "Now *they* decide if it's worth it.", "sub_size": 46, "draw": s5},
+    {"dur": 7.6, "text": "Want them practicing this on *paper*?", "size": 74,
+     "sub": "Get the *Money* *Smart* *Kids* *Coloring* *Book*. Link in bio. Follow for more.", "sub_size": 48, "draw": s6},
 ]}

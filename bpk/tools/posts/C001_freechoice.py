@@ -46,6 +46,6 @@ SPEC = {"id": "C001_freechoice", "slides": [
      "sub": "Say they bought $3 of slime. No judging, just curious.", "draw": d5},
     {"kicker": "THE PAYOFF", "text": "Small regrets are *cheap lessons*.", "size": 78,
      "sub": "A $3 \"not worth it\" now teaches what a $3,000 one would later.", "draw": d6},
-    {"text": "Want your kid building *rich habits* now?", "size": 76,
-     "sub": "Get our kids' money activity & coloring book (link in bio) and *follow* *@kids_and_money_554* for a new lesson every day.", "draw": d7},
+    {"text": "Want your kid practicing *rich habits* on paper?", "size": 74,
+     "sub": "Get the *Money* *Smart* *Kids* *Coloring* *Book*. Link in bio. Follow @kids_and_money_554 for daily lessons.", "draw": d7},
 ]}
