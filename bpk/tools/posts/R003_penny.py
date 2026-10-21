@@ -26,7 +26,7 @@ def s6(img, t):
 
 SPEC = {"id": "R003_penny", "music": {"style": "playful", "seed": 313}, "scenes": [
     {"dur": 3.0, "instant": True, "text": "Your kid thinks pennies are *worthless?*", "size": 88, "draw": s1},
-    {"dur": 3.4, "text": "25¢ a day. Watch the *jar.*", "size": 84, "draw": lambda img, t: coin_jar_line(img, 470, 1190, t=t, start=0, end=.5, amount_from=0, amount_to=7.5, day_from=0, day_to=30)},
+    {"dur": 3.0, "text": "25¢ a day. Watch the *jar.*", "size": 84, "draw": lambda img, t: coin_jar_line(img, 470, 1190, t=t, start=0, end=.5, amount_from=0, amount_to=7.5, day_from=0, day_to=30)},
     {"dur": 2.8, "text": "Day 60: *$15.* Goal hit.", "size": 88, "draw": s5},
-    {"dur": 2.8, "text": "Comment *BOOK* for the coloring book link.", "size": 76, "draw": s6},
+    {"dur": 3.2, "text": "Comment *BOOK.* Teach money before money teaches *them.*", "size": 74, "draw": s6},
 ]}

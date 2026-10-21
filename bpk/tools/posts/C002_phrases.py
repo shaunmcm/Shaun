@@ -17,6 +17,6 @@ SPEC = {"id": "C002_phrases", "slides": [
      "sub": "Now cost has a number. But what about saving?", "draw": sw('"Money doesn\'t grow on trees."', '"Let\'s see how many weeks it costs."')},
     {"kicker": "PHRASE 2", "text": "A \"rainy day\" is too *vague* for a kid.", "size": 72,
      "sub": "A goal they choose makes saving real. Every swap turns \"no\" into a lesson.", "draw": sw('"Save it for a rainy day."', '"What do you want to save for?"')},
-    {"text": "Want them practicing these lessons on *paper*?", "size": 76,
-     "sub": "Comment *BOOK* for the *Money* *Smart* *Kids* *Coloring* *Book* link. Follow @kids_and_money_554 for daily lessons.", "draw": d4},
+    {"text": "Teach money before money teaches *them.*", "size": 80,
+     "sub": "Comment *BOOK* now for the Money Smart Kids Coloring Book link, before the next \"can I have it?\"", "draw": d4},
 ]}

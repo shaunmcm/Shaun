@@ -2,6 +2,17 @@
 
 The user's full brief is MASTER_PROMPT.txt in this folder. It is the top-level operating system. This file is the house method that implements it. Newest USER UPDATE blocks (add them at the top) win.
 
+## ⭐ PERMANENT USER RULE (Oct 21, 1:00 AM) — "COMMENT BOOK" CTA MUST DRIVE CURIOSITY + EMOTION + URGENCY
+The CTA's meaning is "comment BOOK to teach your kids how to handle money", phrased with curiosity, emotion and urgency. Urgency comes from the child's habits forming NOW / the next money moment — never fake scarcity, fake deadlines or fake discounts.
+CTA bank (rotate; Reel CTA screen ≤ 8 words, shown with the big "Comment BOOK" pill):
+- "Comment BOOK — teach money before money teaches them."
+- "Comment BOOK before another allowance disappears."
+- "Comment BOOK before the next 'can I have it?'"
+- "Their money habits start now. Comment BOOK."
+- "Don't let them learn money the hard way. Comment BOOK."
+- "Comment BOOK — give them the lessons we never got."
+Caption CTA paragraph (rotate wording, keep the meaning): "Your kid is learning about money right now, with or without a plan. Comment BOOK and we'll reply with the Money Smart Kids Coloring Book link so the lessons are the right ones (it's also in our bio)." Carousel slide 4: CTA-bank headline + sub "Comment BOOK for the Money Smart Kids Coloring Book link" + pill.
+
 ## ⭐ PERMANENT USER RULE (Oct 21, 12:58 AM) — REELS ≤ 12 SECONDS, EMOTION-FIRST (overrides older Reel length/scene counts)
 - Every Reel is 12.0 s or shorter (render_reel.py fails anything longer). Typical shape, 4 screens: (1) emotional open-question hook ~3 s → (2) loop payoff + next question ~3 s → (3) outcome payoff with the number/visual ~3 s → (4) "Comment BOOK" CTA ~2.8 s.
 - Hooks: emotionally driven (worry, pride, guilt-free relief, "your kid thinks…"), curiosity-driven open question, ≤ 8 words.

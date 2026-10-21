@@ -23,5 +23,5 @@ SPEC = {"id": "R004_afford", "music": {"style": "lofi", "seed": 414}, "scenes": 
      "sub": "What does your kid *hear?*", "sub_size": 60, "draw": s1},
     {"dur": 2.6, "text": "Say: \"It's not in our *plan.*\"", "size": 84, "draw": s3},
     {"dur": 2.8, "text": "Then show the plan: *$12 left.*", "size": 84, "draw": s5},
-    {"dur": 2.8, "text": "Comment *BOOK* for the coloring book link.", "size": 76, "draw": s6},
+    {"dur": 3.0, "text": "Comment *BOOK* before another allowance *disappears.*", "size": 76, "draw": s6},
 ]}
