@@ -140,11 +140,19 @@ def render_reel(pid, r):
         ins, fc, labels = [], [], []
         for i, sg in enumerate(r["segments"]):
             ins += ["-i", os.path.join(SRC, sg["src"] + ".mp4")]
-            fc.append(f"[{i}:v]trim={sg['start']}:{sg['end']},setpts=PTS-STARTPTS,scale=1080:540,setsar=1,fps=30[v{i}];"
+            fc.append(f"[{i}:v]trim={sg['start']}:{sg['end']},setpts=PTS-STARTPTS,scale=1080:-2,crop=1080:540,setsar=1,fps=30[v{i}];"
                       f"[{i}:a]atrim={sg['start']}:{sg['end']},asetpts=PTS-STARTPTS[a{i}]")
             labels.append(f"[v{i}][a{i}]")
         n = len(r["segments"])
-        fc.append("".join(labels) + f"concat=n={n}:v=1:a=1[v][a]")
+        if "audio_bed" in r:
+            # silent sources (e.g. v4_bts): video-only concat, audio from a bed clip
+            bed = r["audio_bed"]
+            ins += ["-i", os.path.join(SRC, bed["src"] + ".mp4")]
+            fc = [f.split(";")[0] for f in fc]  # keep only the video parts
+            fc.append("".join(l.split("][")[0] + "]" for l in labels) + f"concat=n={n}:v=1:a=0[v]")
+            fc.append(f"[{n}:a]atrim={bed['start']}:{bed['start'] + dur},asetpts=PTS-STARTPTS[a]")
+        else:
+            fc.append("".join(labels) + f"concat=n={n}:v=1:a=1[v][a]")
         run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fc), "-map", "[v]", "-map", "[a]",
              "-c:v", "libx264", "-crf", "16", "-c:a", "aac", seg])
         run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", bgp, "-i", seg, "-filter_complex",

@@ -1,0 +1,503 @@
+{
+  "day": "2026-10-22",
+  "account": "Smzz_220 (instagramPageId 17841442662401596)",
+  "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+  "fact_rule": "NO TIMER. Verified only: 35 unique levels, red = one-touch death, nearly impossible obstacle courses, iPhone, $2.99.",
+  "reels": {
+    "R005_impossible": {
+      "slot": "9:00 AM PT (Reel A - Hook/Gameplay)",
+      "series": "Nearly Impossible Courses",
+      "outcome": "By the end, viewers know the courses are nearly impossible because of red on every side and want to find the course that breaks them.",
+      "segments": [
+        {
+          "src": "gp_v5",
+          "start": 23.5,
+          "end": 30.5
+        },
+        {
+          "src": "gp_v5",
+          "start": 5,
+          "end": 13
+        },
+        {
+          "src": "gp_v1",
+          "start": 10,
+          "end": 14.4
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Why are these courses called nearly impossible?",
+          "payoff": "Every path is lined with red."
+        },
+        {
+          "open": "So is it luck?",
+          "payoff": "No - every course has one clean line."
+        },
+        {
+          "open": "Then why can't you hold it?",
+          "payoff": "The line is thinner than your nerve."
+        },
+        {
+          "open": "Which course breaks you first?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "This iPhone game's courses are NEARLY IMPOSSIBLE. Why?"
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Because every path is lined with RED."
+        },
+        {
+          "t": [
+            5.5,
+            8.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So is it luck?"
+        },
+        {
+          "t": [
+            8.0,
+            11.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "No. Every course has one clean line."
+        },
+        {
+          "t": [
+            11.0,
+            13.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Then why can't you hold it?"
+        },
+        {
+          "t": [
+            13.5,
+            16.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "The line is thinner than your nerve."
+        },
+        {
+          "t": [
+            16.0,
+            19.4
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then comment your course number."
+        }
+      ],
+      "voiceover": "This iPhone game's courses are called nearly impossible. Why? Because every path is lined with red. So is it luck? No. Every course has one clean line. Then why can't you hold it? Because the line is thinner than your nerve. Comment PLAY for the link, then comment the course that broke you.",
+      "caption": "Why are Impact Zero's obstacle courses called nearly impossible? (iPhone game, 35 levels)\n\nBecause every path is lined with red, and red ends the run in one touch.\n\nSo is it luck? No. Every course has one clean line through it. Then why can't you hold the line? Because the line is thinner than your nerve, and the course finds out which one gives first.\n\n35 hand-built courses. Out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then come back and comment the course number that broke you.\n\n#impactzero #indiegame #obstaclecourse #iphonegame #mobilegamer"
+    },
+    "R006_editor": {
+      "slot": "1:00 PM PT (Reel B - Dev/BTS)",
+      "series": "Where the red gets placed (dev)",
+      "outcome": "By the end, viewers have seen the real editor, understand why 35 levels is plenty, and name their wall.",
+      "segments": [
+        {
+          "src": "v4_bts",
+          "start": 0,
+          "end": 12.4
+        },
+        {
+          "src": "gp_v5",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "src": "gp_v1",
+          "start": 3,
+          "end": 6
+        }
+      ],
+      "audio_bed": {
+        "src": "gp_v5",
+        "start": 5
+      },
+      "gain": 1.7,
+      "loops": [
+        {
+          "open": "Where does the red get placed?",
+          "payoff": "In this editor - every block can end a run."
+        },
+        {
+          "open": "So why only 35 levels?",
+          "payoff": "One course can ruin your night."
+        },
+        {
+          "open": "And 35?",
+          "payoff": "Can ruin your month."
+        },
+        {
+          "open": "Which course is your wall?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "This is where Impact Zero's RED gets placed."
+        },
+        {
+          "t": [
+            3.0,
+            6.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Every block in this editor can end a run."
+        },
+        {
+          "t": [
+            6.0,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So why only 35 levels?"
+        },
+        {
+          "t": [
+            8.5,
+            11.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One course can ruin your night."
+        },
+        {
+          "t": [
+            11.0,
+            13.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "35 can ruin your month."
+        },
+        {
+          "t": [
+            13.5,
+            16.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So which course is YOUR wall?"
+        },
+        {
+          "t": [
+            16.0,
+            19.4
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then comment your wall."
+        }
+      ],
+      "voiceover": "This is where Impact Zero's red gets placed. Every block in this editor can end a run. So why only thirty-five levels? Because one course can ruin your night. Thirty-five can ruin your month. So which course is your wall? Comment PLAY for the link, then comment your wall.",
+      "caption": "Indie game dev behind the scenes: this is where Impact Zero's red gets placed.\n\nEvery block you see in the editor can end a run. One touch, restart.\n\nSo why only 35 levels in a mobile game? Because one course can ruin your night. Thirty-five can ruin your month. Nothing in there is filler.\n\nIt's live on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then come back and comment which course is your wall.\n\n#gamedev #indiedev #impactzero #mobilegame #indiegames"
+    },
+    "R007_level5": {
+      "slot": "4:30 PM PT (Reel C - Challenge)",
+      "series": "Level 5 Challenge: SLOW or FAST",
+      "outcome": "By the end, viewers accept the level-5 challenge and declare SLOW or FAST in the comments.",
+      "segments": [
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "src": "gp_v5",
+          "start": 13,
+          "end": 19.5
+        },
+        {
+          "src": "gp_v5",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Can you clear level 5 tonight?",
+          "payoff": "Most of it is red - one touch and you restart."
+        },
+        {
+          "open": "So you go slow?",
+          "payoff": "Slow is where you overthink it."
+        },
+        {
+          "open": "Fast then?",
+          "payoff": "Fast is where you clip the edge."
+        },
+        {
+          "open": "So which are you?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Can you clear LEVEL 5 of this iPhone game tonight?"
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Most of it is RED. One touch, restart."
+        },
+        {
+          "t": [
+            5.5,
+            8.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So you go slow?"
+        },
+        {
+          "t": [
+            8.0,
+            10.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Slow is where you overthink it."
+        },
+        {
+          "t": [
+            10.5,
+            13.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Fast is where you clip the edge."
+        },
+        {
+          "t": [
+            13.0,
+            15.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So which one are YOU?"
+        },
+        {
+          "t": [
+            15.5,
+            19.5
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then comment SLOW or FAST."
+        }
+      ],
+      "voiceover": "Can you clear level five of this iPhone game tonight? Most of it is red. One touch and you restart. So you go slow? Slow is where you overthink it. Fast is where you clip the edge. So which one are you? Comment PLAY for the link, then comment slow or fast.",
+      "caption": "Can you clear level 5 of Impact Zero tonight? Hard mobile game challenge.\n\nMost of level 5 is red. One touch and you restart the course.\n\nSo you go slow? Slow is where you overthink the line. Fast? Fast is where you clip the edge. Every player is one of the two, and the course knows which.\n\n35 levels, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then come back and comment SLOW or FAST - which one got you.\n\n#impactzero #gamechallenge #hardgame #iosgames #mobilegaming"
+    },
+    "R008_ratemyrun": {
+      "slot": "8:00 PM PT (Reel D - Community)",
+      "series": "Rate My Run",
+      "outcome": "By the end, viewers judge the run and drop a 1-10 rating plus PLAY.",
+      "segments": [
+        {
+          "src": "gp_v5",
+          "start": 23.5,
+          "end": 30.5
+        },
+        {
+          "src": "gp_v1",
+          "start": 6,
+          "end": 14.4
+        },
+        {
+          "src": "gp_v5",
+          "start": 10,
+          "end": 13
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Rate this run 1 to 10.",
+          "payoff": "Red on both sides, one clip and it's over."
+        },
+        {
+          "open": "So was that clean?",
+          "payoff": "Or lucky? You decide."
+        },
+        {
+          "open": "Could you do it cleaner?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Rate this Impact Zero run 1 to 10."
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "RED on both sides."
+        },
+        {
+          "t": [
+            5.5,
+            8.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One clip and it's over."
+        },
+        {
+          "t": [
+            8.0,
+            10.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So was that clean?"
+        },
+        {
+          "t": [
+            10.5,
+            13.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Or did I get lucky?"
+        },
+        {
+          "t": [
+            13.0,
+            15.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Could YOU do it cleaner?"
+        },
+        {
+          "t": [
+            15.5,
+            18.4
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then rate it 1-10."
+        }
+      ],
+      "voiceover": "Rate this Impact Zero run one to ten. Red on both sides. One clip and it's over. So was that clean? Or did I get lucky? Could you do it cleaner? Comment PLAY for the link, then rate it one to ten.",
+      "caption": "Rate this Impact Zero run 1 to 10 (iPhone obstacle course game).\n\nRed on both sides. One clip and the run is over.\n\nSo was that clean, or did I get lucky? Could you do it cleaner? There's only one way to find out, and it costs less than a coffee.\n\n35 levels, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then rate the run 1-10 in the comments.\n\n#impactzero #mobilegameplay #indiegame #gaming #iphonegames"
+    }
+  },
+  "carousel": {
+    "C003_threeways": {
+      "slot": "11:30 AM PT (Carousel 1)",
+      "series": "3 ways the red gets you",
+      "outcome": "By the end, viewers can name which of the three mistakes is theirs.",
+      "slides": [
+        {
+          "head": "How does one red block keep beating you in Impact Zero?",
+          "sub": "",
+          "visual": "gp_v1@1"
+        },
+        {
+          "head": "Way 1: the edge. You clear the block, clip the corner, run over.",
+          "sub": "So you give it more room?",
+          "visual": "gp_v5@6"
+        },
+        {
+          "head": "Way 2: the overcorrect. More room on one side is less on the other.",
+          "sub": "So you slow down?",
+          "visual": "gp_v5@26"
+        },
+        {
+          "head": "Way 3: the hesitation. Stop mid-line and the next block is already there.",
+          "sub": "So what actually works?",
+          "visual": "gp_v1@11"
+        },
+        {
+          "head": "Commitment. Pick the line, hold it. 35 courses to practice. $2.99 on iPhone.",
+          "sub": "Comment PLAY for the link. Which of the 3 gets you most?",
+          "visual": "poster"
+        }
+      ],
+      "caption": "How does one red block keep beating you in Impact Zero? (hard iPhone game)\n\nThree ways. The edge: you clear the block, clip the corner, run over. The overcorrect: more room on one side is less on the other. The hesitation: stop mid-line and the next block is already there.\n\nSo what actually works? Commitment. Pick the line and hold it. 35 courses to practice on.\n\nOut now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me which of the three gets you most: 1, 2 or 3.\n\n#impactzero #mobilegame #gamingtips #indiegamedev #obstaclecourse"
+    },
+    "C004_price": {
+      "slot": "6:00 PM PT (Carousel 2)",
+      "series": "$2.99 vs free",
+      "outcome": "By the end, viewers have an opinion on the price and post WORTH or NOT.",
+      "slides": [
+        {
+          "head": "Why is Impact Zero $2.99 instead of free?",
+          "sub": "",
+          "visual": "poster"
+        },
+        {
+          "head": "Because free games sell your attention. This one sells you 35 courses.",
+          "sub": "So what do you actually get for $2.99?",
+          "visual": "gp_v5@2"
+        },
+        {
+          "head": "35 hand-built obstacle courses. Red everywhere. Nothing recycled.",
+          "sub": "Is that worth a coffee?",
+          "visual": "gp_v1@9"
+        },
+        {
+          "head": "You tell me.",
+          "sub": "Comment PLAY for the link. Then comment WORTH or NOT.",
+          "visual": "gp_v5@28"
+        }
+      ],
+      "caption": "Why is Impact Zero $2.99 instead of free? (new iOS game 2026)\n\nBecause free games sell your attention. This one sells you 35 hand-built obstacle courses. Red everywhere, nothing recycled.\n\nIs that worth a coffee? You tell me.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment WORTH or NOT - I read every one.\n\n#impactzero #appstoregames #indiegame #mobilegamer #newgame"
+    }
+  }
+}
