@@ -134,7 +134,23 @@ def render_reel(pid, r):
         backdrop(bgp)
     dur = r["cards"][-1]["t"][1]
     # ----- base composition per reel -----
-    if pid.startswith("R001"):
+    if "segments" in r:
+        # generic: list of {src, start, end} from the clean band sources; concatenated, scaled to 1080x540, centred on backdrop
+        seg = os.path.join(TMP, f"{pid}_seg.mp4")
+        ins, fc, labels = [], [], []
+        for i, sg in enumerate(r["segments"]):
+            ins += ["-i", os.path.join(SRC, sg["src"] + ".mp4")]
+            fc.append(f"[{i}:v]trim={sg['start']}:{sg['end']},setpts=PTS-STARTPTS,scale=1080:540,setsar=1,fps=30[v{i}];"
+                      f"[{i}:a]atrim={sg['start']}:{sg['end']},asetpts=PTS-STARTPTS[a{i}]")
+            labels.append(f"[v{i}][a{i}]")
+        n = len(r["segments"])
+        fc.append("".join(labels) + f"concat=n={n}:v=1:a=1[v][a]")
+        run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fc), "-map", "[v]", "-map", "[a]",
+             "-c:v", "libx264", "-crf", "16", "-c:a", "aac", seg])
+        run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", bgp, "-i", seg, "-filter_complex",
+             "[0:v][1:v]overlay=0:690:shortest=1[v]", "-map", "[v]", "-map", "1:a", "-t", str(dur),
+             "-r", "30", "-c:v", "libx264", "-crf", "16", "-c:a", "aac", "-af", f"volume={r.get('gain', 1.6)},afade=t=out:st={dur - 1.2}:d=1.2", base])
+    elif pid.startswith("R001"):
         # two clean gameplay segments from gp_v5 (skip the old 'co-op' segment)
         seg = os.path.join(TMP, "r1_seg.mp4")
         run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(SRC, "gp_v5.mp4"), "-filter_complex",
@@ -257,7 +273,10 @@ def render_carousel(pid, c):
     print("rendered carousel", pid, n, "slides")
 
 
+ONLY = set(sys.argv[2:])  # optional: render only these post ids
 for pid, r in spec["reels"].items():
-    render_reel(pid, r)
+    if not ONLY or pid in ONLY:
+        render_reel(pid, r)
 for pid, c in spec["carousel"].items():
-    render_carousel(pid, c)
+    if not ONLY or pid in ONLY:
+        render_carousel(pid, c)

@@ -8,8 +8,13 @@ Owner: Shaun (shaunmunoz145@gmail.com). Set up Oct 21, 2026. Permanent, hands-of
 - OUT NOW on iPhone, **$2.99**. App Store: https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326
 - NEVER show or say: August 27 / 9-9-26 release dates, "wish list" / Steam wishlist, "Steam in November", $6.99, the "Will feature online co-op" segment (gp_v5 19.5–23.5 s). Never invent mechanics, stats, player counts, review quotes or dev-process facts beyond the list above.
 
+## USER UPDATE Oct 21, 6:38 PM PT (newest rules win)
+- **4 Reels + 2 carousels per day**; carousels **4–6 slides max**. Slots and the full reach/SEO strategy are in GROWTH_SYSTEM.md (goal: 10,000 followers in one month).
+- Every Reel AND carousel: curiosity loop — hook → provoke curiosity → payoff → payoff opens the next question → answer → … → final question → CTA "Comment PLAY" (same word every time).
+- Strategy must maximise reach: SEO captions (keyword-first first line), on-screen keywords, 5 rotated hashtags, comment-bait CTA, fast replies. See GROWTH_SYSTEM.md section 3.
+
 ## User's master prompt (verbatim rules)
-Role: elite indie game marketing director / viral strategist. Daily output: **3 Reels + 1 Carousel**.
+Role: elite indie game marketing director / viral strategist. Daily output: originally 3 Reels + 1 Carousel — now **4 Reels + 2 Carousels** (Oct 21 update).
 Every post is a continuous curiosity loop:
 1. PRIMARY HOOK (0–1.5 s): intriguing, urgent question or conflict.
 2. QUICK RESOLUTION (2–4 s): briefly answer/show the result so nobody scrolls.
@@ -38,10 +43,10 @@ Standing rule from the user's other pages (Oct 20): write the one-sentence outco
 - Publish media: copy to /home/claude/shaun/iz/{r,c}/, commit as Claude <noreply@anthropic.com>, push to master.
 
 ## Posting (Zapier → Instagram for Business)
-- Account: Instagram **Smzz_220**. Resolve its instagramPageId by listing the `instagramPageId` dynamic enum of tool instagram_for_business_publish_video (label contains "Smzz" / "smzz_220"). NEVER post to Unspoken At Work (17841420504964559), Money Mapped (17841413335234840), Odds Visualized (17841423585967011), Broke Proof Kids (17841440839365671) or Warriors for Christ (17841403533778015).
-- If the enum has no Smzz_220 entry, the account is not connected yet: SendUserMessage once (Instagram Smzz_220 must be a Professional/Business account linked to a Facebook Page, then reconnect Zapier "Instagram for Business" so Smzz_220 appears), reschedule the post for the same slot next day, and do not post anywhere else.
+- Account: Instagram **Smzz_220** = instagramPageId **17841442662401596** (verified Oct 21: username smzz_220, display name "Impact Zero"; the Zapier enum label is "Impact Zero", NOT "Smzz"). Website field already = App Store link. NEVER post to Unspoken At Work (17841420504964559), Money Mapped (17841413335234840), Odds Visualized (17841423585967011), Broke Proof Kids (17841440839365671) or Warriors for Christ (17841403533778015).
+- If 17841442662401596 is missing from the enum, the connection dropped: SendUserMessage once (Instagram Smzz_220 must be a Professional/Business account linked to a Facebook Page, then reconnect Zapier "Instagram for Business" so Smzz_220 appears), reschedule the post for the same slot next day, and do not post anywhere else.
 - Reels: instagram_for_business_publish_video (video = raw URL, caption, instagramPageId). Carousel: instagram_for_business_publish_photo_s (publish_media_v2) with slide URLs in order. "Still processing" → wait 75 s, GET https://graph.facebook.com/v19.0/<pageId>/media?fields=id,permalink,timestamp,caption&limit=5 via Make API GET Request and retry only if not there. Never post twice.
-- Slots (PT): Reel 1 12:00 PM, carousel 2:15 PM, Reel 2 4:30 PM, Reel 3 7:30 PM. Log to posted.log and content_log.tsv.
+- Slots (PT) from Oct 22: Reel A 9:00 AM · Carousel 1 11:30 AM · Reel B 1:00 PM · Reel C 4:30 PM · Carousel 2 6:00 PM · Reel D 8:00 PM. Log to posted.log and content_log.tsv.
 
 ## "Comment PLAY" system
 - Every 2 h (8 AM–10:30 PM PT) a task reads comments on the last 10 Smzz_220 posts (GET /<pageId>/media?fields=id,permalink,comments{id,text,username,timestamp}). For any comment containing "play" (case-insensitive) not yet in comments_log.tsv and not by Smzz_220: reply via Make API Mutating Request POST /<comment-id>/replies?message=<reply>. Reply text: "Here you go 🎮 https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326 — comment the level that stops you!". Also send that link by DM only if a DM action is available; otherwise the reply is enough. Reply kindly to other comments (level numbers, feedback) in the dev's voice; never argue.

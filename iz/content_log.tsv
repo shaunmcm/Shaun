@@ -1,5 +1,7 @@
 post_id	date	slot	type	status
-R001_timer	2026-10-21	12:00 PM	reel	scheduled
-C001_timer	2026-10-21	2:15 PM	carousel	scheduled
-R002_code	2026-10-21	4:30 PM	reel	scheduled
+R001_timer	2026-10-21	12:00 PM	reel	posted
+C001_timer	2026-10-21	2:15 PM	carousel	posted
+R002_code	2026-10-21	4:30 PM	reel	posted
 R003_challenge	2026-10-21	7:30 PM	reel	scheduled
+C002_red	2026-10-21	8:45 PM	carousel	scheduled
+R004_onemoretry	2026-10-21	9:45 PM	reel	scheduled

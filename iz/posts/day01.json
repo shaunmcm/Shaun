@@ -213,6 +213,114 @@
       "voiceover": "Thirty-five levels. One timer. How far can you get? Level one looks easy. It isn't. Because every level changes the rules on you. Finish before the timer, or it finishes you. So what level are you stuck on? Comment PLAY, I'll send the link. Then come back and comment your level.",
       "caption": "35 levels. One timer. How far can you actually get in Impact Zero?\n\nLevel 1 looks easy. It isn't. Every level changes the rules on you, and the only rule that never changes is this one: finish before the timer, or it finishes you.\n\nHere's the challenge. Comment PLAY and I'll send you the App Store link ($2.99 on iPhone, link in bio too). Play it tonight. Then come back and comment the level number that stopped you.\n\nI'll be in the comments. Highest level wins bragging rights.\n\n#impactzero #mobilegaming #iosgames #indiegame #gamechallenge",
       "label_until": 13.68
+    },
+    "R004_onemoretry": {
+      "slot": "9:45 PM PT (Reel D)",
+      "type": "Reel 4 - One More Try / Red = Death",
+      "outcome": "By the end, viewers understand why one-touch death + a timer makes the game addictive and want to count their own tries.",
+      "segments": [
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "src": "gp_v5",
+          "start": 13,
+          "end": 19.5
+        },
+        {
+          "src": "gp_v1",
+          "start": 8,
+          "end": 14.4
+        }
+      ],
+      "gain": 1.5,
+      "loops": [
+        {
+          "open": "Why does this iPhone game make you say one more try?",
+          "payoff": "Red kills you in one touch."
+        },
+        {
+          "open": "Unfair?",
+          "payoff": "No - every death teaches you the course."
+        },
+        {
+          "open": "Then why is there a timer?",
+          "payoff": "So you can't play it safe."
+        },
+        {
+          "open": "How many tries will level 5 take you?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "This iPhone game makes you say ONE MORE TRY. Why?"
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Because RED kills you in one touch."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Unfair? No. Every death teaches you the course."
+        },
+        {
+          "t": [
+            8.5,
+            11.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Then why is there a timer?"
+        },
+        {
+          "t": [
+            11.0,
+            13.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "So you can't play it safe."
+        },
+        {
+          "t": [
+            13.5,
+            16.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "How many tries will level 5 take you?"
+        },
+        {
+          "t": [
+            16.5,
+            20.5
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then comment your try count."
+        }
+      ],
+      "voiceover": "Why does this iPhone game make you say one more try? Because red kills you in one touch. Unfair? No. Every death teaches you the course. Then why is there a timer? So you can't play it safe. How many tries will level five take you? Comment PLAY for the link, then comment your try count.",
+      "caption": "Why does this iPhone game make you say \"one more try\"? Impact Zero, explained in 20 seconds.\n\nRed kills you in one touch. Unfair? No. Every death shows you the course, so the next run is faster.\n\nThen why is there a timer? So you can't play it safe. Slow and careful is exactly how the clock gets you.\n\n35 hand-built obstacle courses. Out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then come back and comment how many tries level 5 took you.\n\n#impactzero #mobilegaming #hardgame #iphonegames #ragegame"
     }
   },
   "carousel": {
@@ -273,6 +381,39 @@
         }
       ],
       "caption": "Why does Impact Zero punish you for being slow?\n\nBecause the timer isn't a score. It's a countdown. Hit zero and the level takes you out.\n\nBut the timer isn't what gets most players. The red blocks are. One touch, run over. So you can't go slow and you can't go sloppy. Speed and precision, on every one of 35 hand-built obstacle courses, and the late ones are nearly impossible.\n\nThat's the loop: die, learn the course, go again. One more try never feels like enough.\n\nIt's out now on iPhone for $2.99. Comment PLAY and I'll send you the App Store link (also in bio). Then come back and tell me the level that broke you.\n\n#impactzero #indiegame #mobilegame #iosgames #indiedev"
+    },
+    "C002_red": {
+      "slot": "8:45 PM PT (Carousel 2)",
+      "type": "Carousel - Red = Death (5 slides)",
+      "outcome": "By the end, viewers know the two threats (timer vs red) and pick a side in the comments.",
+      "slides": [
+        {
+          "head": "Why does one red block end your whole run in Impact Zero?",
+          "sub": "",
+          "visual": "gp_v5@7"
+        },
+        {
+          "head": "Because one touch is the whole penalty. The run ends. You go again.",
+          "sub": "So how do you survive a course made of red?",
+          "visual": "gp_v1@2"
+        },
+        {
+          "head": "You read the pattern before you move. But the timer won't let you stall.",
+          "sub": "So what happens when the clock and the walls disagree?",
+          "visual": "gp_v5@12"
+        },
+        {
+          "head": "You commit. Half-speed is how the timer gets you. Full-speed is how the red gets you.",
+          "sub": "So where is the sweet spot?",
+          "visual": "gp_v1@10"
+        },
+        {
+          "head": "That IS the game. 35 courses to find it. $2.99 on iPhone.",
+          "sub": "Comment PLAY for the link. Then tell me: timer or red - which gets you more?",
+          "visual": "poster"
+        }
+      ],
+      "caption": "Why does one red block end your whole run in Impact Zero (iPhone game)?\n\nBecause one touch is the whole penalty. The run ends, you go again.\n\nSo how do you survive a course made of red? You read the pattern before you move. But the timer won't let you stall. So what happens when the clock and the walls disagree? You commit. Half-speed is how the timer gets you. Full-speed is how the red gets you.\n\nFinding the sweet spot IS the game. 35 hand-built courses. $2.99 on iPhone, out now.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me: timer or red, which one gets you more?\n\n#impactzero #indiegame #obstaclecourse #appstoregames #gamechallenge"
     }
   }
 }
