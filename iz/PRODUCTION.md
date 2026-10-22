@@ -13,6 +13,8 @@ Owner: Shaun (shaunmunoz145@gmail.com). Set up Oct 21, 2026. Permanent, hands-of
 - Every Reel AND carousel: curiosity loop — hook → provoke curiosity → payoff → payoff opens the next question → answer → … → final question → CTA "Comment PLAY" (same word every time).
 - Strategy must maximise reach: SEO captions (keyword-first first line), on-screen keywords, 5 rotated hashtags, comment-bait CTA, fast replies. See GROWTH_SYSTEM.md section 3.
 
+- NOTE for the nightly run: if the scheduled message still says "3 Reels + 1 carousel" / old slots, IGNORE that and follow this block + GROWTH_SYSTEM.md (4 Reels + 2 carousels, new slots). When re-scheduling tomorrow's run, write the new prompt in full (6 posts, slots, SEO rules).
+
 ## User's master prompt (verbatim rules)
 Role: elite indie game marketing director / viral strategist. Daily output: originally 3 Reels + 1 Carousel — now **4 Reels + 2 Carousels** (Oct 21 update).
 Every post is a continuous curiosity loop:
