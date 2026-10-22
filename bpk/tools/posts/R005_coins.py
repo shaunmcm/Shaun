@@ -14,8 +14,8 @@ def s6(img, t):
     d = ImageDraw.Draw(img); pill(d, 540, 1380, 'Comment BOOK', size=60, bg=TERRA, alpha=int(255*min(1, t*3)))
     return img
 SPEC = {"id": "R005_coins", "music": {"style": "playful", "seed": 505}, "scenes": [
-    {"dur": 2.8, "instant": True, "text": "Game coins feel *free* to your kid?", "size": 86, "draw": s1},
-    {"dur": 3.0, "text": "800 coins = *$10* of real money.", "size": 84, "draw": s2},
+    {"dur": 3.2, "instant": True, "text": "Broke adults aren't made at 25. *Try 7.*", "size": 86, "draw": s1},
+    {"dur": 2.8, "text": "800 coins = *$10* of real money.", "size": 84, "draw": s2},
     {"dur": 3.2, "text": "That 400-coin skin? *$5.* Say it out loud.", "size": 80, "draw": s3},
-    {"dur": 3.0, "text": "Their money habits start now. Comment *BOOK.*", "size": 78, "draw": s6},
+    {"dur": 2.8, "text": "Their money habits start now. Comment *BOOK.*", "size": 78, "draw": s6},
 ]}

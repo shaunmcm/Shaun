@@ -2,6 +2,20 @@
 
 The user's full brief is MASTER_PROMPT.txt in this folder. It is the top-level operating system. This file is the house method that implements it. Newest USER UPDATE blocks (add them at the top) win.
 
+## ⭐ PERMANENT USER RULE (Oct 21, 11:32 PM) — 2-SLIDE CAROUSELS, URGENT EMOTIONAL HOOKS, ENGAGEMENT ROUTINE (overrides older carousel length)
+CAROUSELS = 2 SLIDES: slide 1 = immediate, urgent, emotional hook (+ "Swipe"); slide 2 = the payoff (the one fix, concrete) + CTA-bank line + "Comment BOOK" pill.
+HOOKS (Reels + carousels): every post opens with an IMMEDIATE, URGENT, EMOTIONAL hook that makes a parent feel "this is happening to my kid right now" and leads to the book. User's model: "Your kids become poor when they're young, not when they're older." Vary the wording every post (don't repeat one line). Bank of angles:
+- "Broke adults aren't made at 25. They're made at 7." (backed by Cambridge researchers, 2013: money habits largely formed by age 7 — cite as "Cambridge researchers" when used as proof)
+- "Your kid is practicing being broke. Right now."
+- "The money mistake your kid makes at 6 follows them to 26."
+- "Every 'just this once' teaches your kid something. Here's what."
+- "You're not raising a spender. You're raising a habit."
+Never invent stats; the Cambridge age-7 finding is the only stat cleared so far.
+ENGAGEMENT ROUTINE (from the user's growth tips) — every post message must, right after publishing:
+1) Post a first comment from the account: a question for parents that includes one SEO phrase (teaching kids about money / kids allowance / budgeting for kids / teaching kids to save / financial literacy for kids / money lessons for kids). Store it in captions.json as "<id>_q". (API can't pin comments or like/save/repost our own posts — the user does those by hand.)
+2) Schedule two follow-ups with send_later at +15 min and +30 min: reply to EVERY new comment on that post (BOOK → book link reply; anything else → a warm, specific 1-sentence reply, often ending with a question), skipping our own comments and anything already answered.
+The hourly "BOOK comment replies" task also replies to all unanswered comments on recent posts as a backstop.
+
 ## ⭐ PERMANENT USER RULE (Oct 21, 1:00 AM) — "COMMENT BOOK" CTA MUST DRIVE CURIOSITY + EMOTION + URGENCY
 The CTA's meaning is "comment BOOK to teach your kids how to handle money", phrased with curiosity, emotion and urgency. Urgency comes from the child's habits forming NOW / the next money moment — never fake scarcity, fake deadlines or fake discounts.
 CTA bank (rotate; Reel CTA screen ≤ 8 words, shown with the big "Comment BOOK" pill):
@@ -44,7 +58,7 @@ User wants opening hooks that hit like: "Your kid doesn't become broke later, th
 ## Account + publishing (verified Oct 20, 2026)
 - Instagram: @kids_and_money_554 ("Kids & Money"), instagramPageId **17841440839365671**. Post ONLY here. Never post to Odds Visualized (17841423585967011), Money Mapped (17841413335234840), Unspoken at Work (17841420504964559) or any other account.
 - Publish via Zapier InstagramBusinessCLIAPI: Reels = `publish_video` (tool instagram_for_business_publish_video); carousels = `publish_media_v2` (tool instagram_for_business_publish_photo_s); Stories = Make API Mutating Request: POST https://graph.facebook.com/v19.0/17841440839365671/media with querystring media_type=STORIES & image_url=<raw url>, then POST .../media_publish with creation_id.
-- Media hosting: public repo clone /home/claude/shaun (GitHub shaunmcm/Shaun, branch master), folder bpk/ (r/ reels, c/ carousels, s/ stories). Raw URL base: https://raw.githubusercontent.com/shaunmcm/Shaun/master/bpk/  (if the user creates shaunmcm/brokeproofkids-media, switch to it and update this line). Re-clone with add_repo if the folder is missing. Commit as Claude <noreply@anthropic.com>.
+- Media hosting: public repo clone /home/claude/shaun (GitHub shaunmcm/Shaun, branch master), folder bpk/ (r/ reels, c/ carousels, s/ stories). Raw URL base: https://raw.githubusercontent.com/shaunmcm/Shaun/master/bpk/  (if the user creates shaunmcm/brokeproofkids-media, switch to it and update this line). Re-clone with add_repo if the folder is missing. Commit as Claude <noreply@anthropic.com>. The repo is SHARED with another project (iz/ folder, Impact Zero): always `git fetch origin master && git rebase origin/master` before pushing, and only touch bpk/.
 - "Still processing" rule: wait 75 s, GET .../17841440839365671/media?fields=id,permalink,timestamp,caption&limit=3 via Make API GET Request; retry only if the post is not there. Never post twice.
 - The separate 30-day OpusClip clip run (Day N clips, 10:00 AM PT, ends Nov 15) also posts to this account. Leave it alone; don't duplicate its topics.
 

@@ -9,7 +9,7 @@ def s6(img, t):
     d = ImageDraw.Draw(img); pill(d, 540, 1380, 'Comment BOOK', size=60, bg=TERRA, alpha=int(255*min(1, t*3)))
     return img
 SPEC = {"id": "R006_wallet", "music": {"style": "lofi", "seed": 606}, "scenes": [
-    {"dur": 3.2, "instant": True, "text": "$10 in their game wallet. *Gone* by Friday?", "size": 84, "draw": s1},
+    {"dur": 3.2, "instant": True, "text": "Your kid is practicing being *broke.* Right now.", "size": 84, "draw": s1},
     {"dur": 2.8, "text": "Set a *$10* monthly cap. Then stop.", "size": 82, "draw": s2},
     {"dur": 2.8, "text": "Wish list first. Buy only *on payday.*", "size": 82, "draw": s3},
     {"dur": 3.2, "text": "Comment *BOOK.* Give them lessons we never *got.*", "size": 76, "draw": s6},
