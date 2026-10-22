@@ -217,7 +217,7 @@
     "R004_onemoretry": {
       "slot": "9:45 PM PT (Reel D)",
       "type": "Reel 4 - One More Try / Red = Death",
-      "outcome": "By the end, viewers understand why one-touch death + a timer makes the game addictive and want to count their own tries.",
+      "outcome": "By the end, viewers understand why one-touch death makes the game addictive and want to count their own tries.",
       "segments": [
         {
           "src": "gp_v1",
@@ -246,8 +246,8 @@
           "payoff": "No - every death teaches you the course."
         },
         {
-          "open": "Then why is there a timer?",
-          "payoff": "So you can't play it safe."
+          "open": "So why die on a course you know?",
+          "payoff": "Knowing the line isn't holding the line."
         },
         {
           "open": "How many tries will level 5 take you?",
@@ -289,7 +289,7 @@
           ],
           "zone": "top",
           "style": "question",
-          "text": "Then why is there a timer?"
+          "text": "So why die on a course you KNOW?"
         },
         {
           "t": [
@@ -298,7 +298,7 @@
           ],
           "zone": "top",
           "style": "answer",
-          "text": "So you can't play it safe."
+          "text": "Knowing the line isn't holding the line."
         },
         {
           "t": [
@@ -319,8 +319,8 @@
           "text": "Comment PLAY for the link. Then comment your try count."
         }
       ],
-      "voiceover": "Why does this iPhone game make you say one more try? Because red kills you in one touch. Unfair? No. Every death teaches you the course. Then why is there a timer? So you can't play it safe. How many tries will level five take you? Comment PLAY for the link, then comment your try count.",
-      "caption": "Why does this iPhone game make you say \"one more try\"? Impact Zero, explained in 20 seconds.\n\nRed kills you in one touch. Unfair? No. Every death shows you the course, so the next run is faster.\n\nThen why is there a timer? So you can't play it safe. Slow and careful is exactly how the clock gets you.\n\n35 hand-built obstacle courses. Out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then come back and comment how many tries level 5 took you.\n\n#impactzero #mobilegaming #hardgame #iphonegames #ragegame"
+      "voiceover": "Why does this iPhone game make you say one more try? Because red kills you in one touch. Unfair? No. Every death teaches you the course. So why do you still die on a course you know? Because knowing the line isn't holding the line. How many tries will level five take you? Comment PLAY for the link, then comment your try count.",
+      "caption": "Why does this iPhone game make you say \"one more try\"? Impact Zero, explained in 20 seconds.\n\nRed kills you in one touch. Unfair? No. Every death shows you the course, so the next run is cleaner.\n\nSo why do you still die on a course you already know? Because knowing the line and holding the line are two different skills. Hesitate once and the red is waiting.\n\n35 hand-built obstacle courses. Out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then come back and comment how many tries level 5 took you.\n\n#impactzero #mobilegaming #hardgame #iphonegames #ragegame"
     }
   },
   "carousel": {
@@ -385,7 +385,7 @@
     "C002_red": {
       "slot": "8:45 PM PT (Carousel 2)",
       "type": "Carousel - Red = Death (5 slides)",
-      "outcome": "By the end, viewers know the two threats (timer vs red) and pick a side in the comments.",
+      "outcome": "By the end, viewers know one-touch death is the whole game and name the course still beating them.",
       "slides": [
         {
           "head": "Why does one red block end your whole run in Impact Zero?",
@@ -398,22 +398,22 @@
           "visual": "gp_v1@2"
         },
         {
-          "head": "You read the pattern before you move. But the timer won't let you stall.",
-          "sub": "So what happens when the clock and the walls disagree?",
+          "head": "You read the pattern before you move. Every gap has a rhythm.",
+          "sub": "So why do you still die on a course you've memorized?",
           "visual": "gp_v5@12"
         },
         {
-          "head": "You commit. Half-speed is how the timer gets you. Full-speed is how the red gets you.",
-          "sub": "So where is the sweet spot?",
+          "head": "Because knowing the line and holding the line are different skills. Hesitate once and the red is waiting.",
+          "sub": "So where does it finally click?",
           "visual": "gp_v1@10"
         },
         {
-          "head": "That IS the game. 35 courses to find it. $2.99 on iPhone.",
-          "sub": "Comment PLAY for the link. Then tell me: timer or red - which gets you more?",
+          "head": "Somewhere in 35 courses. $2.99 on iPhone.",
+          "sub": "Comment PLAY for the link. Then tell me: which course is still beating you?",
           "visual": "poster"
         }
       ],
-      "caption": "Why does one red block end your whole run in Impact Zero (iPhone game)?\n\nBecause one touch is the whole penalty. The run ends, you go again.\n\nSo how do you survive a course made of red? You read the pattern before you move. But the timer won't let you stall. So what happens when the clock and the walls disagree? You commit. Half-speed is how the timer gets you. Full-speed is how the red gets you.\n\nFinding the sweet spot IS the game. 35 hand-built courses. $2.99 on iPhone, out now.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me: timer or red, which one gets you more?\n\n#impactzero #indiegame #obstaclecourse #appstoregames #gamechallenge"
+      "caption": "Why does one red block end your whole run in Impact Zero (iPhone game)?\n\nBecause one touch is the whole penalty. The run ends, you go again.\n\nSo how do you survive a course made of red? You read the pattern before you move. Every gap has a rhythm. So why do you still die on a course you've memorized? Because knowing the line and holding the line are two different skills. Hesitate once and the red is waiting.\n\nFinding where it clicks IS the game. 35 hand-built courses. $2.99 on iPhone, out now.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me: which course is still beating you?\n\n#impactzero #indiegame #obstaclecourse #appstoregames #gamechallenge"
     }
   }
 }

@@ -3,7 +3,8 @@
 Owner: Shaun (shaunmunoz145@gmail.com). Set up Oct 21, 2026. Permanent, hands-off: never ask permission to post, change or schedule.
 
 ## The game (only claim what is verified)
-- Impact Zero — "Outer Space Adventure". Blue cracked cube protagonist, RED blocks/lasers = death, green platforms/goals, a per-level timer: finish in time or the level takes you out.
+- **NO TIMER (user, Oct 21 7:34 PM): the game has no timer. Never mention a timer, countdown, clock, "finish in time" or "before time runs out" in any post, caption, reply or report.** The penalty is one-touch death on red; the in-game line "Can you win before it takes you out?" refers to the course taking you out, not a clock.
+- Impact Zero — "Outer Space Adventure". Blue cracked cube protagonist, RED blocks/lasers = death, green platforms/goals. One touch of red ends the run; you restart the course.
 - 35 unique, challenging levels. "Nearly impossible obstacle courses." "Frustratingly satisfying."
 - OUT NOW on iPhone, **$2.99**. App Store: https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326
 - NEVER show or say: August 27 / 9-9-26 release dates, "wish list" / Steam wishlist, "Steam in November", $6.99, the "Will feature online co-op" segment (gp_v5 19.5–23.5 s). Never invent mechanics, stats, player counts, review quotes or dev-process facts beyond the list above.
@@ -54,4 +55,4 @@ Standing rule from the user's other pages (Oct 20): write the one-sentence outco
 - Every 2 h (8 AM–10:30 PM PT) a task reads comments on the last 10 Smzz_220 posts (GET /<pageId>/media?fields=id,permalink,comments{id,text,username,timestamp}). For any comment containing "play" (case-insensitive) not yet in comments_log.tsv and not by Smzz_220: reply via Make API Mutating Request POST /<comment-id>/replies?message=<reply>. Reply text: "Here you go 🎮 https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326 — comment the level that stops you!". Also send that link by DM only if a DM action is available; otherwise the reply is enough. Reply kindly to other comments (level numbers, feedback) in the dev's voice; never argue.
 
 ## Content series to rotate (no repeats within 7 days)
-Timer Zero (what happens at 0), Red = Death, Level X Challenge ("comment your level"), The Code That Kills You (dev), Why 35 Levels (dev), Nearly Impossible Courses, One More Try psychology, Blue Cube lore (what cracked it?), Tips: how to survive level N (only from footage), Reaction/duet bait ("rate my run"), Price/launch meta ($2.99 vs free-with-ads — opinion framing only, no false claims).
+Red = Death, Level X Challenge ("comment your level"), The Code That Kills You (dev), Why 35 Levels (dev), Nearly Impossible Courses, One More Try psychology, Blue Cube lore (what cracked it?), Tips: how to survive level N (only from footage), Reaction/duet bait ("rate my run"), Price/launch meta ($2.99 vs free-with-ads — opinion framing only, no false claims).

@@ -6,6 +6,9 @@ Mission: 10,000 followers in 30 days (start Oct 21, 2026: 81 followers). Set by 
 Slots (PT): Reel A 9:00 AM · Carousel 1 11:30 AM · Reel B 1:00 PM · Reel C 4:30 PM · Carousel 2 6:00 PM · Reel D 8:00 PM.
 (Reels spaced ≥3 h apart; carousels sit between Reels so the grid alternates.)
 
+## 0. Fact rule
+NO TIMER in the game (user, Oct 21). Never say timer / countdown / clock / finish in time. Verified facts only: 35 unique levels, red = one-touch death, nearly impossible obstacle courses, iPhone, $2.99.
+
 ## 2. The loop (user rule, every Reel and every carousel)
 Hook (open question/conflict, 0–1.5 s) → provoke curiosity → payoff → the payoff raises a NEW question → answer → next question … → final unanswered question → **CTA: "Comment PLAY"** (always the same word, every post) → the PLAY comment gets the App Store link.
 - Spec records each loop as [{open, payoff}]; the last payoff hands straight to the CTA.
@@ -26,7 +29,7 @@ Instagram ranks and searches by: caption keywords (first line weighs most), on-s
 5. **Alt text** on carousel slides when posting via the raw API (image container param alt_text = the slide headline + "Impact Zero iPhone game"); not available through the simple Zapier publish action — optional.
 6. **Caption shape (90–150 words):** keyword hook line → the loop retold in 3–5 short lines (each ends on a question or a payoff) → one proof line (35 levels / $2.99 / iPhone) → CTA "Comment PLAY and I'll send you the App Store link (also in bio)" + the second ask → 5 hashtags on the last line. No walls of text, no emoji spam (≤2).
 7. **Audio**: game audio bed by default; nightly task may swap in trending audio only if the user supplies it (API can't attach IG trending audio).
-8. **Series = searchable formats** (rotate; keep the name in the first line): "Timer Zero", "Red = Death", "Level X Challenge", "The Code That Kills You" (dev), "Why 35 Levels" (dev), "Nearly Impossible Courses", "One More Try", "Rate My Run", "Blue Cube Lore" (what cracked it? — framed as a question, never answered with invented lore), "Beginner Tips" (only visible mechanics), "$2.99 vs free-with-ads" (opinion framing).
+8. **Series = searchable formats** (rotate; keep the name in the first line): "Red = Death", "Level X Challenge", "The Code That Kills You" (dev), "Why 35 Levels" (dev), "Nearly Impossible Courses", "One More Try", "Rate My Run", "Blue Cube Lore" (what cracked it? — framed as a question, never answered with invented lore), "Beginner Tips" (only visible mechanics), "$2.99 vs free-with-ads" (opinion framing).
 9. **Manual boosts the API cannot do** (tell the user once a week, never nag): turn on "Trial Reels" for Reel A and Reel D, add a Collab tag with one gaming page per day, pin the best-performing Reel, reply to Stories, add a "PLAY" keyword auto-DM in Instagram's native Inbox automation (sends the link by DM, which the Graph API cannot).
 
 ## 4. Measurement & adaptation
