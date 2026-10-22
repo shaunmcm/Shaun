@@ -288,3 +288,80 @@ def swap_card(img, cx, cy, old, new, t=1.0):
         d = ImageDraw.Draw(img)
         check(d, cx + 420, cy + 40, r=40, alpha=a)
     return img
+
+
+def phone(img, cx, cy, t=1.0, title="Coin Shop", rows=(("800 coins", "$9.99"),), tag_text="EXAMPLE", highlight=0, tap=False, w=460, h=780):
+    """Screenshot-style phone screen with a store list. Optional tap ripple on the highlighted row."""
+    box = [cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2]
+    img = card(img, box, fill=INK, radius=60)
+    d = ImageDraw.Draw(img)
+    scr = [box[0] + 22, box[1] + 60, box[2] - 22, box[3] - 40]
+    d.rounded_rectangle(scr, radius=36, fill=CREAM + (255,))
+    d.rounded_rectangle([cx - 60, box[1] + 22, cx + 60, box[1] + 38], radius=8, fill=(70, 80, 70, 255))
+    f = font(F_XB, 44); tw = d.textlength(title, font=f)
+    d.text((cx - tw / 2, scr[1] + 30), title, font=f, fill=INK + (255,))
+    if tag_text:
+        pill(d, cx, scr[1] + 100, tag_text, size=24, bg=SAGE)
+    y = scr[1] + 160
+    for i, (a, b) in enumerate(rows):
+        hl = i == highlight
+        rb = [scr[0] + 20, y, scr[2] - 20, y + 170]
+        d.rounded_rectangle(rb, radius=24, fill=(SAND if hl else (238, 240, 230)) + (255,), outline=(TERRA if hl else SAGE) + (255,), width=4)
+        coin(d, rb[0] + 52, y + 50, r=30, label="")
+        fa = font(F_BOLD, 36)
+        while d.textlength(a, font=fa) > (rb[2] - rb[0] - 110) and fa.size > 24:
+            fa = font(F_BOLD, fa.size - 2)
+        d.text((rb[0] + 96, y + 28), a, font=fa, fill=INK + (255,))
+        fb = font(F_XB, 44); bw = d.textlength(b, font=fb)
+        px = (rb[0] + rb[2]) / 2
+        d.rounded_rectangle([px - bw / 2 - 24, y + 92, px + bw / 2 + 24, y + 150], radius=26, fill=(TERRA if hl else SAGE_D) + (255,))
+        d.text((px - bw / 2, y + 96), b, font=fb, fill=CREAM + (255,))
+        if hl and tap and t > .3:
+            k = min(1, (t - .3) / .4); r = 30 + 60 * k
+            d.ellipse([px - r, y + 121 - r, px + r, y + 121 + r], outline=(INK[0], INK[1], INK[2], int(255 * (1 - k))), width=8)
+        y += 200
+    return img
+
+
+def cash_stack(img, cx, cy, t=1.0, bills=5, label="$5", sub=""):
+    ov = Image.new("RGBA", img.size, (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+    n = max(1, int(round(bills * ease(t))))
+    for i in range(n):
+        bill(d, cx + (i % 2) * 14 - 7, cy - i * 26, w=300, h=140, label="$1")
+    img = Image.alpha_composite(img, ov); d = ImageDraw.Draw(img)
+    pill(d, cx, cy + 110, label + (f" {sub}" if sub else ""), size=44, bg=TERRA)
+    return img
+
+
+def meter(img, cx, cy, t=1.0, cap=10, start=10, end=0, title="Game money this month (example)"):
+    w = 820
+    img = card(img, [cx - w / 2 - 30, cy - 150, cx + w / 2 + 30, cy + 170], fill=CREAM)
+    d = ImageDraw.Draw(img)
+    f = font(F_BOLD, 36); tw = d.textlength(title, font=f)
+    d.text((cx - tw / 2, cy - 120), title, font=f, fill=SAGE_D + (255,))
+    v = start + (end - start) * ease(t)
+    d.rounded_rectangle([cx - w / 2, cy - 30, cx + w / 2, cy + 50], radius=40, fill=(225, 230, 215, 255))
+    if v > 0:
+        d.rounded_rectangle([cx - w / 2, cy - 30, cx - w / 2 + w * v / cap, cy + 50], radius=40, fill=(SAGE_D if v > cap * .3 else TERRA) + (255,))
+    lab = f"${v:,.0f} of ${cap} left"
+    fb = font(F_XB, 48); tw = d.textlength(lab, font=fb)
+    d.text((cx - tw / 2, cy + 80), lab, font=fb, fill=INK + (255,))
+    return img
+
+
+def wishlist(img, cx, cy, t=1.0, items=(("Skin", "$5"), ("Battle pass", "$10"), ("Emote", "$3")), title="Wish list", foot="Buy on payday only"):
+    h = 200 + 100 * len(items)
+    img = card(img, [cx - 380, cy - h / 2, cx + 380, cy + h / 2], fill=CREAM)
+    d = ImageDraw.Draw(img)
+    d.text((cx - 340, cy - h / 2 + 30), title, font=font(F_XB, 52), fill=INK + (255,))
+    y = cy - h / 2 + 120
+    n = len(items) * ease(t)
+    for i, (a, b) in enumerate(items):
+        al = 255 if i < n else 70
+        d.rounded_rectangle([cx - 340, y + 10, cx - 300, y + 50], radius=8, outline=SAGE_D + (al,), width=5)
+        d.text((cx - 270, y), a, font=font(F_BOLD, 44), fill=INK + (al,))
+        fb = font(F_XB, 44); bw = d.textlength(b, font=fb)
+        d.text((cx + 340 - bw, y), b, font=fb, fill=TERRA + (al,))
+        y += 100
+    pill(d, cx, cy + h / 2 - 70, foot, size=36, bg=SAGE_D)
+    return img
