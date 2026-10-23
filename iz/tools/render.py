@@ -135,6 +135,9 @@ def render_reel(pid, r):
     dur = r["cards"][-1]["t"][1]
     # ----- base composition per reel -----
     if "segments" in r:
+        _tot = sum(sg["end"] - sg["start"] for sg in r["segments"])
+        if _tot + 0.05 < dur:
+            raise SystemExit(f"{pid}: SEGMENTS TOO SHORT ({_tot:.1f}s < {dur}s) - extend segments")
         # generic: list of {src, start, end} from the clean band sources; concatenated, scaled to 1080x540, centred on backdrop
         seg = os.path.join(TMP, f"{pid}_seg.mp4")
         ins, fc, labels = [], [], []

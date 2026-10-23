@@ -29,6 +29,8 @@ Per Reel the plan records: hook text, loop 1 answer + loop 2 question, visual/cl
 Style: passionate transparent indie dev talking to gamers; never generic AI slop; quick cuts, dynamic text positioning, zero dead air.
 Standing rule from the user's other pages (Oct 20): write the one-sentence outcome first, emotional curiosity hook, loops all the way through, something new every 2–4 s, emotion + curiosity + proof, readable (≥0.3 s per word, ≥2.5 s per card where possible).
 
+- Never describe what a specific numbered level contains (e.g. "level 5 is mostly red") — the footage is not labelled by level. Level numbers only as challenges ("can you clear level 5?").
+
 ## Assets (repo shaunmcm/Shaun, folder iz/src; raw URLs https://raw.githubusercontent.com/shaunmcm/Shaun/master/iz/...)
 - src/gp_v5.mp4 — 30.5 s clean gameplay band (1440x720, audio). In-game captions: "Nearly impossible obstacle courses…" (~1–4 s), "Can you win before it takes you out?" (~10–13 s). SKIP 19.5–23.5 s (co-op text). Best all-round source.
 - src/gp_v1.mp4 — 14.4 s clean gameplay band (1080x542, audio): red walls → green ramp → red barrier → lasers → green particle finish.

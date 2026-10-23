@@ -1,0 +1,487 @@
+{
+  "day": "2026-10-23",
+  "account": "Smzz_220 (instagramPageId 17841442662401596)",
+  "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+  "fact_rule": "NO TIMER. No claims about what a specific numbered level contains. Verified only: 35 unique levels, red = one-touch death, nearly impossible obstacle courses, iPhone, $2.99.",
+  "notes": "Day 1-2 best performer: R004 'One More Try' (why-question about the player's own behaviour, 3 likes). Leaning into that pattern for Reel A and Carousel 1.",
+  "reels": {
+    "R009_samespot": {
+      "slot": "9:00 AM PT (Reel A - Hook/Gameplay)",
+      "series": "One More Try Part 2: same spot",
+      "outcome": "By the end, viewers recognise why they die in the same spot and want to test the fix.",
+      "segments": [
+        {
+          "src": "gp_v1",
+          "start": 4,
+          "end": 12
+        },
+        {
+          "src": "gp_v5",
+          "start": 25,
+          "end": 30.5
+        },
+        {
+          "src": "gp_v5",
+          "start": 3,
+          "end": 9.5
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Why do you die in the same spot every time?",
+          "payoff": "You're watching the red, not the gap."
+        },
+        {
+          "open": "So look at the gap?",
+          "payoff": "Yes - your thumb follows your eyes."
+        },
+        {
+          "open": "Then why does it still happen?",
+          "payoff": "You flinch on the attempt you think is the one."
+        },
+        {
+          "open": "Where's your spot?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Why do you die in the SAME SPOT?"
+        },
+        {
+          "t": [
+            3.0,
+            5.8
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "You're watching the RED, not the gap."
+        },
+        {
+          "t": [
+            5.8,
+            8.3
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So look at the gap?"
+        },
+        {
+          "t": [
+            8.3,
+            11.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Yes. Your thumb follows your eyes."
+        },
+        {
+          "t": [
+            11.0,
+            13.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Then why does it still happen?"
+        },
+        {
+          "t": [
+            13.5,
+            16.3
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "You flinch on the run that counts."
+        },
+        {
+          "t": [
+            16.3,
+            19.8
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Where's your spot?"
+        }
+      ],
+      "voiceover": "Why do you die in the same spot in this iPhone game? Because you're watching the red, not the gap. So look at the gap? Yes. Your thumb follows your eyes. Then why does it still happen? Because you flinch on the run you think is the one. Comment PLAY for the link, then tell me where your spot is.",
+      "caption": "Why do you keep dying in the same spot in Impact Zero? (hard iPhone game)\n\nBecause you're watching the red, not the gap. Your thumb follows your eyes, so if your eyes are on the block, that's where you go.\n\nSo you look at the gap. Then why does it still happen? Because you flinch on the run you think is finally the one.\n\n35 nearly impossible obstacle courses. Out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me where your spot is.\n\n#impactzero #hardgame #mobilegaming #iphonegames #gamingtips"
+    },
+    "R010_inside": {
+      "slot": "1:00 PM PT (Reel B - Dev/BTS)",
+      "series": "Inside a nearly impossible course (dev)",
+      "outcome": "By the end, viewers have seen the dev side of a course and pick the one block they would delete.",
+      "segments": [
+        {
+          "src": "v4_bts",
+          "start": 2.5,
+          "end": 12.4
+        },
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "src": "gp_v5",
+          "start": 24,
+          "end": 30.5
+        }
+      ],
+      "audio_bed": {
+        "src": "gp_v5",
+        "start": 9
+      },
+      "gain": 1.7,
+      "loops": [
+        {
+          "open": "What does a nearly impossible course look like from the inside?",
+          "payoff": "This - the build, before you ever touch it."
+        },
+        {
+          "open": "Why so much red?",
+          "payoff": "Every block is a decision you have to make."
+        },
+        {
+          "open": "If you could delete one, which?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "What does an IMPOSSIBLE course look like from the inside?"
+        },
+        {
+          "t": [
+            3.0,
+            5.8
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "This. The build, before you touch it."
+        },
+        {
+          "t": [
+            5.8,
+            8.3
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So why so much RED?"
+        },
+        {
+          "t": [
+            8.3,
+            11.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Every block is a decision."
+        },
+        {
+          "t": [
+            11.0,
+            13.8
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One wrong one ends the run."
+        },
+        {
+          "t": [
+            13.8,
+            16.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "If you could delete ONE block..."
+        },
+        {
+          "t": [
+            16.5,
+            19.9
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then tell me which one."
+        }
+      ],
+      "voiceover": "What does an impossible course look like from the inside? This. The build, before you touch it. So why so much red? Every block is a decision you have to make, and one wrong one ends the run. If you could delete one block, which would it be? Comment PLAY for the link, then tell me which one.",
+      "caption": "Indie game dev behind the scenes: what a nearly impossible Impact Zero course looks like from the inside.\n\nThis is the build before you ever touch it. So why so much red? Because every block is a decision you have to make, and one wrong one ends the run.\n\nIf you could delete one block from this course, which one would it be?\n\nImpact Zero is out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me which block goes.\n\n#impactzero #gamedev #indiedev #indiegames #behindthescenes"
+    },
+    "R011_threeclean": {
+      "slot": "4:30 PM PT (Reel C - Challenge)",
+      "series": "3 clean courses challenge",
+      "outcome": "By the end, viewers accept the 3-clean-courses challenge and report their count.",
+      "segments": [
+        {
+          "src": "gp_v5",
+          "start": 0,
+          "end": 6.5
+        },
+        {
+          "src": "gp_v1",
+          "start": 7,
+          "end": 14.4
+        },
+        {
+          "src": "gp_v5",
+          "start": 24,
+          "end": 30.5
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Can you clear 3 courses without touching red?",
+          "payoff": "Sounds easy. It isn't."
+        },
+        {
+          "open": "Why not?",
+          "payoff": "One touch and you start that course over."
+        },
+        {
+          "open": "How many did you get?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Can you clear 3 Impact Zero courses CLEAN?"
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "No touching RED. Not once."
+        },
+        {
+          "t": [
+            5.5,
+            8.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Sounds easy. It isn't."
+        },
+        {
+          "t": [
+            8.0,
+            10.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Why not?"
+        },
+        {
+          "t": [
+            10.5,
+            13.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One touch and that course starts over."
+        },
+        {
+          "t": [
+            13.5,
+            16.3
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So how many will YOU get?"
+        },
+        {
+          "t": [
+            16.3,
+            19.8
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then post your number."
+        }
+      ],
+      "voiceover": "Can you clear three Impact Zero courses clean? No touching red. Not once. Sounds easy. It isn't. Why not? Because one touch and that course starts over. So how many will you get? Comment PLAY for the link, then post your number.",
+      "caption": "Hard mobile game challenge: can you clear 3 Impact Zero courses clean?\n\nNo touching red. Not once. Sounds easy. It isn't, because one touch and that course starts over from the beginning.\n\nSo how many will you actually get?\n\n35 obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then post your number: 0, 1, 2 or 3.\n\n#impactzero #gamechallenge #mobilegame #iosgames #ragegame"
+    },
+    "R012_oneword": {
+      "slot": "8:00 PM PT (Reel D - Community)",
+      "series": "Describe it in one word",
+      "outcome": "By the end, viewers drop a one-word reaction and PLAY.",
+      "segments": [
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "src": "gp_v5",
+          "start": 13,
+          "end": 19.5
+        },
+        {
+          "src": "gp_v1",
+          "start": 10,
+          "end": 14.4
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Describe this game in one word.",
+          "payoff": "Watch first."
+        },
+        {
+          "open": "Still easy?",
+          "payoff": "Now picture doing it 35 times."
+        },
+        {
+          "open": "What's your word?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Describe this iPhone game in ONE word."
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Watch first."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Still look easy?"
+        },
+        {
+          "t": [
+            8.5,
+            11.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One touch of RED and it's over."
+        },
+        {
+          "t": [
+            11.5,
+            14.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Now picture doing that 35 times."
+        },
+        {
+          "t": [
+            14.5,
+            17.9
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then drop your ONE word."
+        }
+      ],
+      "voiceover": "Describe this iPhone game in one word. Watch first. Still look easy? One touch of red and it's over. Now picture doing that thirty-five times. Comment PLAY for the link, then drop your one word.",
+      "caption": "Describe Impact Zero in one word. (iPhone obstacle course game)\n\nWatch it first. Still look easy? One touch of red and the run is over. Now picture doing that across 35 courses.\n\nOut now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your one word below - I'm reading all of them.\n\n#impactzero #indiegame #mobilegameplay #gaming #newgame"
+    }
+  },
+  "carousel": {
+    "C005_notbad": {
+      "slot": "11:30 AM PT (Carousel 1)",
+      "series": "You're not bad at this game",
+      "outcome": "By the end, viewers have 3 practical habits for one-touch obstacle games and want to try them.",
+      "slides": [
+        {
+          "head": "You're not bad at Impact Zero. So why do you keep losing?",
+          "sub": "",
+          "visual": "gp_v1@3"
+        },
+        {
+          "head": "Habit 1: you stare at the block. Look at the gap instead.",
+          "sub": "But what if the gap keeps moving?",
+          "visual": "gp_v5@27"
+        },
+        {
+          "head": "Habit 2: you react late. Read the next two obstacles, not the next one.",
+          "sub": "So why do you still clip the edge?",
+          "visual": "gp_v1@9"
+        },
+        {
+          "head": "Habit 3: you play scared. Commit to the line and hold it.",
+          "sub": "So which habit is yours?",
+          "visual": "gp_v5@16"
+        },
+        {
+          "head": "35 courses to fix it. $2.99 on iPhone.",
+          "sub": "Comment PLAY for the link. Then tell me: habit 1, 2 or 3?",
+          "visual": "poster"
+        }
+      ],
+      "caption": "You're not bad at Impact Zero. So why do you keep losing? (hard iPhone game tips)\n\nHabit 1: you stare at the block instead of the gap. Habit 2: you react late - read the next two obstacles, not just the next one. Habit 3: you play scared. Commit to the line and hold it.\n\nWhich one is yours?\n\n35 nearly impossible courses to fix it. Out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me: habit 1, 2 or 3?\n\n#impactzero #gamingtips #mobilegamer #hardgame #indiegames"
+    },
+    "C006_toohard": {
+      "slot": "6:00 PM PT (Carousel 2)",
+      "series": "Too hard for mobile?",
+      "outcome": "By the end, viewers take a side on difficulty and comment it.",
+      "slides": [
+        {
+          "head": "Is Impact Zero too hard for a mobile game?",
+          "sub": "",
+          "visual": "gp_v5@11"
+        },
+        {
+          "head": "One touch of red ends the run. Every course.",
+          "sub": "So is that unfair?",
+          "visual": "gp_v1@6"
+        },
+        {
+          "head": "Or is that the point? You know exactly why you lost.",
+          "sub": "So which side are you on?",
+          "visual": "gp_v5@28"
+        },
+        {
+          "head": "35 courses. $2.99 on iPhone. You decide.",
+          "sub": "Comment PLAY for the link. Then comment TOO HARD or JUST RIGHT.",
+          "visual": "poster"
+        }
+      ],
+      "caption": "Is Impact Zero too hard for a mobile game?\n\nOne touch of red ends the run. Every course. So is that unfair? Or is that the whole point - you always know exactly why you lost?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99. You decide.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment TOO HARD or JUST RIGHT.\n\n#impactzero #mobilegame #iphonegame #ragegame #appstoregames"
+    }
+  }
+}
