@@ -349,19 +349,19 @@ def meter(img, cx, cy, t=1.0, cap=10, start=10, end=0, title="Game money this mo
     return img
 
 
-def wishlist(img, cx, cy, t=1.0, items=(("Skin", "$5"), ("Battle pass", "$10"), ("Emote", "$3")), title="Wish list", foot="Buy on payday only"):
+def wishlist(img, cx, cy, t=1.0, items=(("Skin", "$5"), ("Battle pass", "$10"), ("Emote", "$3")), title="Wish list", foot="Buy on payday only", hw=380):
     h = 200 + 100 * len(items)
-    img = card(img, [cx - 380, cy - h / 2, cx + 380, cy + h / 2], fill=CREAM)
+    img = card(img, [cx - hw, cy - h / 2, cx + hw, cy + h / 2], fill=CREAM)
     d = ImageDraw.Draw(img)
-    d.text((cx - 340, cy - h / 2 + 30), title, font=font(F_XB, 52), fill=INK + (255,))
+    d.text((cx - hw + 40, cy - h / 2 + 30), title, font=font(F_XB, 52), fill=INK + (255,))
     y = cy - h / 2 + 120
     n = len(items) * ease(t)
     for i, (a, b) in enumerate(items):
         al = 255 if i < n else 70
-        d.rounded_rectangle([cx - 340, y + 10, cx - 300, y + 50], radius=8, outline=SAGE_D + (al,), width=5)
-        d.text((cx - 270, y), a, font=font(F_BOLD, 44), fill=INK + (al,))
+        d.rounded_rectangle([cx - hw + 40, y + 10, cx - hw + 80, y + 50], radius=8, outline=SAGE_D + (al,), width=5)
+        d.text((cx - hw + 110, y), a, font=font(F_BOLD, 44), fill=INK + (al,))
         fb = font(F_XB, 44); bw = d.textlength(b, font=fb)
-        d.text((cx + 340 - bw, y), b, font=fb, fill=TERRA + (al,))
+        d.text((cx + hw - 40 - bw, y), b, font=fb, fill=TERRA + (al,))
         y += 100
     pill(d, cx, cy + h / 2 - 70, foot, size=36, bg=SAGE_D)
     return img
