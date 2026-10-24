@@ -1,0 +1,446 @@
+{
+  "day": "2026-10-24",
+  "account": "Smzz_220 (instagramPageId 17841442662401596)",
+  "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+  "fact_rule": "NO TIMER. No claims about what a specific numbered level contains. No invented dev facts or lore. Verified only: 35 unique levels, red = one-touch death, nearly impossible obstacle courses, iPhone, $2.99.",
+  "notes": "Day 3: all 6 posts 0 likes / 0 comments so far; followers 81 -> 80. Shifting to more interactive hooks (count, tag, would-you-rather) that give viewers an easy first comment.",
+  "reels": {
+    "R013_count": {
+      "slot": "9:00 AM PT (Reel A - Hook/Gameplay)",
+      "series": "Count the near misses",
+      "outcome": "By the end, viewers have watched the whole run counting near misses and comment their count.",
+      "segments": [
+        {
+          "src": "gp_v5",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "src": "gp_v1",
+          "start": 5,
+          "end": 14.4
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "How many times does this run almost end?",
+          "payoff": "Count them."
+        },
+        {
+          "open": "Easy, right?",
+          "payoff": "Every red edge counts."
+        },
+        {
+          "open": "What's your number?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "COUNT how many times this run almost ends."
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Every RED edge counts."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Still counting?"
+        },
+        {
+          "t": [
+            8.5,
+            11.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One touch and it would be over."
+        },
+        {
+          "t": [
+            11.5,
+            14.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So what's your number?"
+        },
+        {
+          "t": [
+            14.5,
+            18.0
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then your number."
+        }
+      ],
+      "voiceover": "Count how many times this run almost ends. Every red edge counts. Still counting? One touch and it would be over. So what's your number? Comment PLAY for the link, then your number.",
+      "caption": "Count how many times this Impact Zero run almost ends. (hard iPhone game)\n\nEvery red edge counts. One touch of red and the whole run is over, so every close call is a near miss.\n\nStill counting? What's your number?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your number below.\n\n#impactzero #mobilegaming #iphonegame #hardgame #gamechallenge"
+    },
+    "R014_testing": {
+      "slot": "1:00 PM PT (Reel B - Dev/BTS)",
+      "series": "What testing a game looks like (dev)",
+      "outcome": "By the end, viewers see real dev footage and say what they'd test first.",
+      "segments": [
+        {
+          "src": "v4_bts",
+          "start": 0,
+          "end": 12.4
+        },
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "src": "gp_v5",
+          "start": 23.5,
+          "end": 28.6
+        }
+      ],
+      "audio_bed": {
+        "src": "gp_v5",
+        "start": 0
+      },
+      "gain": 1.7,
+      "loops": [
+        {
+          "open": "What does testing an iPhone game look like?",
+          "payoff": "This - run it, hit red, back to start."
+        },
+        {
+          "open": "Why run it so many times?",
+          "payoff": "One bad block can make a course unfair."
+        },
+        {
+          "open": "What would you test first?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "What TESTING an iPhone game looks like."
+        },
+        {
+          "t": [
+            3.0,
+            6.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Run it. Hit RED. Back to start."
+        },
+        {
+          "t": [
+            6.0,
+            8.8
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Why run it so many times?"
+        },
+        {
+          "t": [
+            8.8,
+            12.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One bad block makes a course unfair."
+        },
+        {
+          "t": [
+            12.0,
+            15.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So what would YOU test first?"
+        },
+        {
+          "t": [
+            15.0,
+            18.4
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then tell me."
+        }
+      ],
+      "voiceover": "This is what testing an iPhone game looks like. Run it. Hit red. Back to start. Why run it so many times? Because one bad block makes a course unfair. So what would you test first? Comment PLAY for the link, then tell me.",
+      "caption": "Indie game dev: this is what testing Impact Zero looks like.\n\nRun the course. Hit red. Back to start. Again.\n\nWhy run it so many times? Because one badly placed block can make a course feel unfair instead of hard - and those are not the same thing.\n\nSo if you were testing it, what would you check first?\n\nImpact Zero is out now on iPhone for $2.99. Comment PLAY and I'll send you the App Store link (also in bio). Then tell me.\n\n#impactzero #indiedev #gamedev #indiegames #iosgames"
+    },
+    "R015_onehand": {
+      "slot": "4:30 PM PT (Reel C - Challenge)",
+      "series": "One-hand challenge",
+      "outcome": "By the end, viewers accept the one-hand challenge and report YES or NO.",
+      "segments": [
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "src": "gp_v5",
+          "start": 3,
+          "end": 13
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Can you clear one Impact Zero course with one hand?",
+          "payoff": "Sounds easy."
+        },
+        {
+          "open": "So why does it feel twice as hard?",
+          "payoff": "Red doesn't care which hand you use."
+        },
+        {
+          "open": "Did you make it?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "ONE-HAND challenge. One course. Can you?"
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Sounds easy."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So why does it feel twice as hard?"
+        },
+        {
+          "t": [
+            8.5,
+            11.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "RED doesn't care which hand you use."
+        },
+        {
+          "t": [
+            11.5,
+            14.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So did you make it?"
+        },
+        {
+          "t": [
+            14.5,
+            18.5
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then YES or NO."
+        }
+      ],
+      "voiceover": "One-hand challenge. One course. Can you? Sounds easy. So why does it feel twice as hard? Because red doesn't care which hand you use. So did you make it? Comment PLAY for the link, then yes or no.",
+      "caption": "Mobile game challenge: clear one Impact Zero course with one hand.\n\nSounds easy. So why does it feel twice as hard? Because red doesn't care which hand you're using - one touch and the run is over either way.\n\nDid you make it?\n\n35 obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment YES or NO.\n\n#impactzero #gamechallenge #mobilegamer #iphonegames #ragegame"
+    },
+    "R016_tag": {
+      "slot": "8:00 PM PT (Reel D - Community)",
+      "series": "Tag the rage quitter",
+      "outcome": "By the end, viewers tag a friend who'd quit at the first red block.",
+      "segments": [
+        {
+          "src": "gp_v5",
+          "start": 9,
+          "end": 13
+        },
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 8.4
+        },
+        {
+          "src": "gp_v5",
+          "start": 23.5,
+          "end": 28.6
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Who would quit at the first red block?",
+          "payoff": "You already know who."
+        },
+        {
+          "open": "And who would play till 3 AM?",
+          "payoff": "Probably you."
+        },
+        {
+          "open": "Tag them.",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Who would QUIT at the first red block?"
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "You already know who."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "And who would play till 3 AM?"
+        },
+        {
+          "t": [
+            8.5,
+            11.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Probably YOU."
+        },
+        {
+          "t": [
+            11.0,
+            14.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Tag the one who'd quit first."
+        },
+        {
+          "t": [
+            14.0,
+            17.4
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then TAG them."
+        }
+      ],
+      "voiceover": "Who would quit at the first red block? You already know who. And who would play till three a.m.? Probably you. Tag the one who'd quit first. Comment PLAY for the link, then tag them.",
+      "caption": "Who would quit Impact Zero at the first red block? (hard iPhone game)\n\nYou already know who. And who would still be playing at 3 AM? Probably you.\n\nTag the friend who'd rage quit first.\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tag them below.\n\n#impactzero #indiegame #mobilegame #gaming #newgame"
+    }
+  },
+  "carousel": {
+    "C007_signs": {
+      "slot": "11:30 AM PT (Carousel 1)",
+      "series": "5 signs you're hooked on a hard game",
+      "outcome": "By the end, viewers count how many signs fit them and comment the number.",
+      "slides": [
+        {
+          "head": "5 signs a hard mobile game has you hooked. How many fit you?",
+          "sub": "",
+          "visual": "gp_v1@1"
+        },
+        {
+          "head": "1. You say 'one more try.' 2. You know the course before you see it.",
+          "sub": "But that's normal, right?",
+          "visual": "gp_v5@26"
+        },
+        {
+          "head": "3. You blame the screen. 4. You replay it in your head later.",
+          "sub": "So what's number 5?",
+          "visual": "gp_v1@9"
+        },
+        {
+          "head": "5. You quit... and come back ten minutes later.",
+          "sub": "So how many fit you?",
+          "visual": "gp_v5@16"
+        },
+        {
+          "head": "Impact Zero: 35 courses. $2.99 on iPhone.",
+          "sub": "Comment PLAY for the link. Then your number out of 5.",
+          "visual": "poster"
+        }
+      ],
+      "caption": "5 signs a hard mobile game has you hooked. How many fit you?\n\n1. You say \"one more try\" and mean it every time. 2. You know the course before you see it. 3. You blame the screen. 4. You replay it in your head later. 5. You quit... and come back ten minutes later.\n\nImpact Zero has 35 nearly impossible obstacle courses. Out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me your number out of 5.\n\n#impactzero #hardgame #mobilegamer #gaming #iosgames"
+    },
+    "C008_wouldyou": {
+      "slot": "6:00 PM PT (Carousel 2)",
+      "series": "Would you rather",
+      "outcome": "By the end, viewers pick A or B and comment it.",
+      "slides": [
+        {
+          "head": "Would you rather: 35 hard courses or 300 easy ones?",
+          "sub": "",
+          "visual": "gp_v5@6"
+        },
+        {
+          "head": "300 easy ones: you finish everything. You remember nothing.",
+          "sub": "So what do 35 hard ones get you?",
+          "visual": "gp_v1@4"
+        },
+        {
+          "head": "35 hard ones: you remember every single course that beat you.",
+          "sub": "So which one are you?",
+          "visual": "gp_v5@28"
+        },
+        {
+          "head": "Impact Zero picked 35. $2.99 on iPhone.",
+          "sub": "Comment PLAY for the link. Then A (35 hard) or B (300 easy).",
+          "visual": "poster"
+        }
+      ],
+      "caption": "Would you rather play 35 hard courses or 300 easy ones? (mobile game debate)\n\n300 easy ones: you finish everything and remember nothing. 35 hard ones: you remember every single course that beat you.\n\nImpact Zero picked 35. Red everywhere, one touch and you're out. Out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment A (35 hard) or B (300 easy).\n\n#impactzero #mobilegame #indiegames #appstoregames #iphonegame"
+    }
+  }
+}

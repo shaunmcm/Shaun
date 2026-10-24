@@ -135,6 +135,12 @@ def render_reel(pid, r):
     dur = r["cards"][-1]["t"][1]
     # ----- base composition per reel -----
     if "segments" in r:
+        _lim = {"gp_v5": 28.6, "gp_v1": 14.4, "v4_bts": 12.4, "v2_main": 13.7}
+        for sg in r["segments"]:
+            if sg["end"] > _lim.get(sg["src"], 1e9) + 0.01:
+                raise SystemExit(f"{pid}: segment {sg} runs past the clean end of {sg['src']} ({_lim[sg['src']]}s) - BANNED RANGE (old end card)")
+            if sg["src"] == "gp_v5" and sg["start"] < 23.5 and sg["end"] > 19.5:
+                raise SystemExit(f"{pid}: segment {sg} overlaps gp_v5 19.5-23.5 co-op text - BANNED RANGE")
         _tot = sum(sg["end"] - sg["start"] for sg in r["segments"])
         if _tot + 0.05 < dur:
             raise SystemExit(f"{pid}: SEGMENTS TOO SHORT ({_tot:.1f}s < {dur}s) - extend segments")

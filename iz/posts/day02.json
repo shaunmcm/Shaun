@@ -10,9 +10,14 @@
       "outcome": "By the end, viewers know the courses are nearly impossible because of red on every side and want to find the course that breaks them.",
       "segments": [
         {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 2
+        },
+        {
           "src": "gp_v5",
           "start": 23.5,
-          "end": 30.5
+          "end": 28.6
         },
         {
           "src": "gp_v5",
@@ -338,9 +343,14 @@
       "outcome": "By the end, viewers judge the run and drop a 1-10 rating plus PLAY.",
       "segments": [
         {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 2
+        },
+        {
           "src": "gp_v5",
           "start": 23.5,
-          "end": 30.5
+          "end": 28.6
         },
         {
           "src": "gp_v1",

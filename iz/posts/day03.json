@@ -17,13 +17,13 @@
         },
         {
           "src": "gp_v5",
-          "start": 25,
-          "end": 30.5
+          "start": 23.5,
+          "end": 28.6
         },
         {
           "src": "gp_v5",
           "start": 3,
-          "end": 9.5
+          "end": 9.8
         }
       ],
       "gain": 1.6,
@@ -126,12 +126,12 @@
         {
           "src": "gp_v1",
           "start": 0,
-          "end": 4
+          "end": 5
         },
         {
           "src": "gp_v5",
-          "start": 24,
-          "end": 30.5
+          "start": 23.5,
+          "end": 28.6
         }
       ],
       "audio_bed": {
@@ -233,13 +233,13 @@
         },
         {
           "src": "gp_v1",
-          "start": 7,
+          "start": 6,
           "end": 14.4
         },
         {
           "src": "gp_v5",
-          "start": 24,
-          "end": 30.5
+          "start": 23.5,
+          "end": 28.6
         }
       ],
       "gain": 1.6,
