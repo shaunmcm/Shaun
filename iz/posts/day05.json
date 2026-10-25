@@ -1,0 +1,456 @@
+{
+  "day": "2026-10-25",
+  "account": "Smzz_220 (instagramPageId 17841442662401596)",
+  "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+  "fact_rule": "NO TIMER. No claims about what a specific numbered level contains. No invented dev facts or lore. Verified only: 35 unique levels, red = one-touch death, nearly impossible obstacle courses, iPhone, $2.99.",
+  "notes": "Best post so far: R012 'Describe this game in ONE word' (6 likes, >3x median) -> Part 2 in the same 8 PM slot (one EMOJI). Zapier task limit hit Oct 24 8 PM; these posts queue via BLOCKER.md until it clears.",
+  "reels": {
+    "R017_survive": {
+      "slot": "9:00 AM PT (Reel A - Hook/Gameplay)",
+      "series": "Would you survive this part?",
+      "outcome": "By the end, viewers have judged a tight section and answer YES or NO.",
+      "segments": [
+        {
+          "src": "gp_v1",
+          "start": 5,
+          "end": 14.4
+        },
+        {
+          "src": "gp_v5",
+          "start": 13,
+          "end": 19.5
+        },
+        {
+          "src": "gp_v5",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Would you survive this part?",
+          "payoff": "Watch the gap, not the red."
+        },
+        {
+          "open": "Still sure?",
+          "payoff": "One touch and it's back to the start."
+        },
+        {
+          "open": "YES or NO?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Would YOU survive this part of Impact Zero?"
+        },
+        {
+          "t": [
+            3.0,
+            5.8
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Watch the gap, not the RED."
+        },
+        {
+          "t": [
+            5.8,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Still sure?"
+        },
+        {
+          "t": [
+            8.5,
+            11.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One touch and it's back to the start."
+        },
+        {
+          "t": [
+            11.5,
+            14.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "So... would you make it?"
+        },
+        {
+          "t": [
+            14.5,
+            18.0
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then YES or NO."
+        }
+      ],
+      "voiceover": "Would you survive this part of Impact Zero? Watch the gap, not the red. Still sure? One touch and it's back to the start. So would you make it? Comment PLAY for the link, then yes or no.",
+      "caption": "Would you survive this part of Impact Zero? (hard iPhone game)\n\nWatch the gap, not the red. Still sure? One touch of red and it's back to the start of the course.\n\nSo be honest - would you make it through?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment YES or NO.\n\n#impactzero #hardgame #mobilegame #iphonegames #gamechallenge"
+    },
+    "R018_spotcube": {
+      "slot": "1:00 PM PT (Reel B - Dev/BTS)",
+      "series": "Real editor footage: spot the cube",
+      "outcome": "By the end, viewers have watched the real editor footage looking for the cube and comment when they found it.",
+      "segments": [
+        {
+          "src": "v4_bts",
+          "start": 0,
+          "end": 12.4
+        },
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "src": "gp_v5",
+          "start": 23.5,
+          "end": 28.6
+        }
+      ],
+      "audio_bed": {
+        "src": "gp_v5",
+        "start": 0
+      },
+      "gain": 1.7,
+      "loops": [
+        {
+          "open": "Real Impact Zero editor footage - can you spot the player cube?",
+          "payoff": "Look for the lightning crack."
+        },
+        {
+          "open": "Found it?",
+          "payoff": "Now picture steering it."
+        },
+        {
+          "open": "How fast did you find it?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Real dev footage. Spot the PLAYER cube."
+        },
+        {
+          "t": [
+            3.0,
+            6.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Hint: look for the lightning crack."
+        },
+        {
+          "t": [
+            6.0,
+            9.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Found it?"
+        },
+        {
+          "t": [
+            9.0,
+            12.0
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Now picture steering it through that."
+        },
+        {
+          "t": [
+            12.0,
+            14.8
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "How fast did you find it?"
+        },
+        {
+          "t": [
+            14.8,
+            18.0
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then your time."
+        }
+      ],
+      "voiceover": "Real dev footage. Spot the player cube. Hint: look for the lightning crack. Found it? Now picture steering it through that. How fast did you find it? Comment PLAY for the link, then your time.",
+      "caption": "Indie game dev footage from Impact Zero: can you spot the player cube?\n\nHint: look for the lightning crack - it's surrounded by red. Found it? Now picture steering it through all of that - one touch of red and the run is over.\n\nHow fast did you find it?\n\nImpact Zero is out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me how many seconds it took you.\n\n#impactzero #indiedev #gamedev #indiegamedev #iosgames"
+    },
+    "R019_noblink": {
+      "slot": "4:30 PM PT (Reel C - Challenge)",
+      "series": "Don't-blink challenge",
+      "outcome": "By the end, viewers have tried to watch the full run without blinking and report if they made it.",
+      "segments": [
+        {
+          "src": "gp_v5",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "src": "gp_v1",
+          "start": 4,
+          "end": 14.4
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Watch this whole Impact Zero run without blinking.",
+          "payoff": "Easy for 3 seconds."
+        },
+        {
+          "open": "Still going?",
+          "payoff": "This is the part where most people blink."
+        },
+        {
+          "open": "Did you make it?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "DON'T BLINK. Watch this whole run."
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Easy so far."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Still not blinking?"
+        },
+        {
+          "t": [
+            8.5,
+            11.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "One touch of RED would end it."
+        },
+        {
+          "t": [
+            11.5,
+            15.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Almost there. Eyes open?"
+        },
+        {
+          "t": [
+            15.0,
+            19.0
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then did you blink?"
+        }
+      ],
+      "voiceover": "Don't blink. Watch this whole run. Easy so far. Still not blinking? One touch of red would end it. Almost there. Eyes open? Comment PLAY for the link, then tell me if you blinked.",
+      "caption": "Don't-blink challenge: watch this whole Impact Zero run without blinking. (iPhone obstacle course game)\n\nEasy for the first few seconds. Then the red closes in, and one touch would end the run.\n\nDid you make it to the end with your eyes open?\n\n35 nearly impossible courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment BLINKED or MADE IT.\n\n#impactzero #gamechallenge #mobilegaming #iphonegame #ragegame"
+    },
+    "R020_emoji": {
+      "slot": "8:00 PM PT (Reel D - Community, Part 2 of best post)",
+      "series": "Describe it in one EMOJI (Part 2)",
+      "outcome": "By the end, viewers drop one emoji and PLAY.",
+      "segments": [
+        {
+          "src": "gp_v1",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "src": "gp_v5",
+          "start": 23.5,
+          "end": 28.6
+        },
+        {
+          "src": "gp_v5",
+          "start": 9,
+          "end": 15
+        }
+      ],
+      "gain": 1.6,
+      "loops": [
+        {
+          "open": "Last time you described this game in one word. Now one emoji.",
+          "payoff": "Watch first."
+        },
+        {
+          "open": "Still the same emoji?",
+          "payoff": "Picture 35 courses of this."
+        },
+        {
+          "open": "What's your emoji?",
+          "payoff": "CTA"
+        }
+      ],
+      "cards": [
+        {
+          "t": [
+            0.0,
+            3.0
+          ],
+          "zone": "top",
+          "style": "hook",
+          "text": "Part 2: describe this game in ONE emoji."
+        },
+        {
+          "t": [
+            3.0,
+            5.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Watch first."
+        },
+        {
+          "t": [
+            5.5,
+            8.5
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Still the same emoji?"
+        },
+        {
+          "t": [
+            8.5,
+            11.5
+          ],
+          "zone": "top",
+          "style": "answer",
+          "text": "Now picture 35 courses of this."
+        },
+        {
+          "t": [
+            11.5,
+            14.0
+          ],
+          "zone": "top",
+          "style": "question",
+          "text": "Changed your mind?"
+        },
+        {
+          "t": [
+            14.0,
+            17.0
+          ],
+          "zone": "top",
+          "style": "cta",
+          "text": "Comment PLAY for the link. Then ONE emoji."
+        }
+      ],
+      "voiceover": "Part two: describe this game in one emoji. Watch first. Still the same emoji? Now picture thirty-five courses of this. Changed your mind? Comment PLAY for the link, then one emoji.",
+      "caption": "Part 2: describe Impact Zero in one emoji. (iPhone obstacle course game)\n\nLast time it was one word. Now watch first. Still the same emoji? Now picture 35 courses of this - red everywhere, one touch and you're out.\n\nOut now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your one emoji below.\n\n#impactzero #indiegame #mobilegameplay #gaming #mobilegamer"
+    }
+  },
+  "carousel": {
+    "C009_hardvsunfair": {
+      "slot": "11:30 AM PT (Carousel 1)",
+      "series": "Hard vs unfair",
+      "outcome": "By the end, viewers can tell a hard game from an unfair one and say which Impact Zero feels like.",
+      "slides": [
+        {
+          "head": "Is a hard mobile game the same as an unfair one?",
+          "sub": "",
+          "visual": "gp_v1@1"
+        },
+        {
+          "head": "Hard: you know exactly why you lost. Unfair: you don't.",
+          "sub": "So what else separates them?",
+          "visual": "gp_v5@26"
+        },
+        {
+          "head": "Hard: practice makes you better. Unfair: luck decides.",
+          "sub": "So which one keeps you playing?",
+          "visual": "gp_v1@9"
+        },
+        {
+          "head": "Hard. Every time. That's what Impact Zero aims for.",
+          "sub": "So does it feel hard or unfair to you?",
+          "visual": "gp_v5@16"
+        },
+        {
+          "head": "35 courses. $2.99 on iPhone.",
+          "sub": "Comment PLAY for the link. Then HARD or UNFAIR.",
+          "visual": "poster"
+        }
+      ],
+      "caption": "Is a hard mobile game the same as an unfair one?\n\nHard: you know exactly why you lost. Unfair: you don't. Hard: practice makes you better. Unfair: luck decides.\n\nHard games keep you playing. Unfair ones make you delete them. Impact Zero aims for hard - one touch of red, and you always know which block got you.\n\n35 obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me: HARD or UNFAIR?\n\n#impactzero #mobilegame #indiegames #hardgame #appstoregames"
+    },
+    "C010_rankred": {
+      "slot": "6:00 PM PT (Carousel 2)",
+      "series": "Rank the red",
+      "outcome": "By the end, viewers rank the obstacles and comment their worst one.",
+      "slides": [
+        {
+          "head": "Which red obstacle is the worst in Impact Zero?",
+          "sub": "",
+          "visual": "gp_v5@7"
+        },
+        {
+          "head": "A: the red lasers. Thin, fast, easy to miss.",
+          "sub": "Worse than walls?",
+          "visual": "gp_v1@1"
+        },
+        {
+          "head": "B: the red walls. Huge, but they close the path.",
+          "sub": "Or is it the blocks?",
+          "visual": "gp_v5@8"
+        },
+        {
+          "head": "C: the red blocks. Small, everywhere, one touch.",
+          "sub": "So which one gets you?",
+          "visual": "gp_v5@26"
+        },
+        {
+          "head": "35 courses of all three. $2.99 on iPhone.",
+          "sub": "Comment PLAY for the link. Then A, B or C.",
+          "visual": "poster"
+        }
+      ],
+      "caption": "Which red obstacle is the worst in Impact Zero? (hard iPhone game)\n\nA: the red lasers - thin, fast and easy to miss. B: the red walls - huge, and they close the path. C: the red blocks - small, everywhere, and one touch ends the run.\n\nWhich one gets you every time?\n\n35 obstacle courses with all three, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then vote A, B or C.\n\n#impactzero #mobilegamer #iosgames #obstaclecourse #indiegame"
+    }
+  }
+}

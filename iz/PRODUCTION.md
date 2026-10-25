@@ -1,5 +1,7 @@
 # Impact Zero — Instagram production system (@Smzz_220)
 
+> **CHECK FIRST:** if /home/claude/iz/BLOCKER.md exists, follow it (Zapier task limit reached Oct 24 8 PM PT; do not re-alert the user; queue blocked posts and retry).
+
 Owner: Shaun (shaunmunoz145@gmail.com). Set up Oct 21, 2026. Permanent, hands-off: never ask permission to post, change or schedule.
 
 ## The game (only claim what is verified)
