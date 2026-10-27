@@ -28,3 +28,28 @@ Slots: Reel A 12:00 PM · Carousel 4:30 PM · Reel B 7:30 PM (PT). All end with 
 Stories daily: ~9:30 AM teaser, ~6:00 PM tip/question (plain frames, "link in bio").
 Carousels: max 4 slides, CTA 'Comment BOOK' on all posts (user, Oct 21).
 Reels: 12 s max, emotion-first curiosity hooks (user, Oct 21 12:58 AM).
+
+# Week 2 plan (Tue Oct 27 – Mon Nov 2) — 2 Reels + 1 two-slide carousel daily; test: phrase pattern on ~2 of 3 posts
+| Date | Slot | Post | Hook | Payoff |
+|---|---|---|---|---|
+| Tue 10/27 (Wants) | 12 PM | Reel R015_asking | "Stop asking for stuff." What do they hear? | "Add it to your wish list" |
+| Tue | 4:30 PM | Carousel C008_jars | "Your kid's piggy bank has one slot. That's the problem." | Save / Spend / Give jars |
+| Tue | 7:30 PM | Reel R016_wait | "Can your kid wait 24 hours?" | Wants wait one night |
+| Wed 10/28 (Saving) | 12 PM | Reel R017 | "\"Save it for something special.\" What does special mean to a 6-year-old?" | Name one goal + price + picture |
+| Wed | 4:30 PM | Carousel C009 | "\"Just put it in the bank.\" Your kid never sees it again." | Show the balance once a month |
+| Wed | 7:30 PM | Reel R018 | "Your kid spent all their birthday money in one day?" | Split gift money before shopping |
+| Thu 10/29 (Earning) | 12 PM | Reel R019 | "\"Money is the root of all evil.\" What does your kid hear?" | "Money is a tool" + one example |
+| Thu | 4:30 PM | Carousel C010 | "Kids who never earn a dollar don't know what one costs." | One small paid extra job |
+| Thu | 7:30 PM | Reel R020 | "\"Ask your dad.\" What does your kid learn about money?" | One family answer, one plan |
+| Fri 10/30 (Halloween) | 12 PM | Reel R021 | "\"Why is the costume so expensive?\"" | Set a costume budget together |
+| Fri | 4:30 PM | Carousel C011 | "Candy is your kid's first currency. Let them trade." | Trading = value + negotiation |
+| Fri | 7:30 PM | Reel R022 | "\"It's only a few dollars.\" What does your kid hear?" | Small amounts add up: weekly total |
+| Sat 10/31 (Mistakes) | 12 PM | Reel R023 | "\"I told you so.\" What does your kid learn?" | "What would you do next time?" |
+| Sat | 4:30 PM | Carousel C012 | "The $5 mistake that saves them from the $500 one." | Let small mistakes happen |
+| Sat | 7:30 PM | Reel R024 | "\"Everyone else has one.\" How do you answer?" | Compare cost to their plan |
+| Sun 11/1 (Family) | 12 PM | Reel R025 | "\"We don't talk about money.\" What does your kid hear?" | One money talk at dinner |
+| Sun | 4:30 PM | Carousel C013 | "Your kid copies your money moves, not your lectures." | Narrate one decision out loud |
+| Sun | 7:30 PM | Reel R026 | "Guess the price: the dinner game that builds money sense." | Receipt guessing game |
+| Mon 11/2 (Allowance) | 12 PM | Reel R027 | "\"You'll get it when you're older.\" What do they hear?" | Small amount now, real practice |
+| Mon | 4:30 PM | Carousel C014 | "Paying in coins vs a phone balance: which feels real?" | Cash first, digital later |
+| Mon | 7:30 PM | Reel R028 | "\"Here, take my card.\" What does your kid learn?" | Kid pays with their own money |
