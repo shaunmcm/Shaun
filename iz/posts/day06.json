@@ -1,0 +1,446 @@
+{
+ "day": "2026-10-27",
+ "account": "Smzz_220 (instagramPageId 17841442662401596)",
+ "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+ "fact_rule": "NO TIMER. No claims about what a specific numbered level contains, which obstacles are in which courses, or obstacle speeds. No invented dev facts or lore. Verified: 35 unique levels, red = one-touch death, nearly impossible obstacle courses, iPhone, $2.99; built in Unity with C# (visible in v4_bts editor footage).",
+ "notes": "Best post Oct 26: C009 hard vs unfair (1 like, 1 real comment; everything else 0-1) -> Part 2 in the same 11:30 slot.",
+ "reels": {
+  "R021_firsttry": {
+   "slot": "9:00 AM PT (Reel A - Hook/Gameplay challenge)",
+   "series": "First try challenge",
+   "outcome": "By the end, viewers guess how many tries this course would take them and comment the number.",
+   "segments": [
+    {
+     "src": "gp_v1",
+     "start": 0,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 28.6
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Could you clear it first try?",
+     "payoff": "Looks simple - green path, straight line."
+    },
+    {
+     "open": "Then what?",
+     "payoff": "Then the red shows up - one touch and you start over."
+    },
+    {
+     "open": "How many tries would you need?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Could you clear this course FIRST try?"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Looks simple. Green path, straight line."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Then the RED shows up."
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One touch and you start over."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So how many tries would YOU need?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then guess your tries."
+    }
+   ],
+   "voiceover": "Could you clear this course first try? Looks simple. Green path, straight line. Then the red shows up. One touch and you start over. So how many tries would you need? Comment PLAY for the link, then guess your tries.",
+   "caption": "First try challenge: could you clear this Impact Zero course on your first attempt? (hard iPhone game)\n\nIt looks simple. Green path, straight line. Then the red shows up - walls, barriers, lasers - and one touch sends you back to the start of the course.\n\nSo be honest: how many tries would it take you? 1? 5? 50? Be honest.\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then guess your number of tries below.\n\n#impactzero #gamechallenge #mobilegame #iosgames #obstaclecourse"
+  },
+  "R022_engine": {
+   "slot": "1:00 PM PT (Reel B - Dev / BTS)",
+   "series": "Indie dev quiz",
+   "outcome": "By the end, viewers know Impact Zero is built in Unity with C# and say what they would build.",
+   "segments": [
+    {
+     "src": "v4_bts",
+     "start": 0,
+     "end": 12.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 28.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 0,
+     "end": 2
+    }
+   ],
+   "audio_bed": {
+    "src": "gp_v5",
+    "start": 0
+   },
+   "gain": 1.7,
+   "loops": [
+    {
+     "open": "What engine runs Impact Zero?",
+     "payoff": "Hint: it's on screen right now."
+    },
+    {
+     "open": "Spotted it?",
+     "payoff": "Unity, scripted in C#."
+    },
+    {
+     "open": "What would you build with it?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Indie dev quiz: what ENGINE runs Impact Zero?"
+    },
+    {
+     "t": [
+      3.0,
+      6.5
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Hint: the answer is on screen right now."
+    },
+    {
+     "t": [
+      6.5,
+      9.5
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Spotted it?"
+    },
+    {
+     "t": [
+      9.5,
+      12.5
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "It's UNITY. Scripted in C#."
+    },
+    {
+     "t": [
+      12.5,
+      15.5
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what would YOU build with it?"
+    },
+    {
+     "t": [
+      15.5,
+      19.0
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then tell me your idea."
+    }
+   ],
+   "voiceover": "Indie dev quiz: what engine runs Impact Zero? Hint, the answer is on screen right now. Spotted it? It's Unity, scripted in C sharp. So what would you build with it? Comment PLAY for the link, then tell me your idea.",
+   "caption": "Indie game dev quiz: what game engine runs Impact Zero?\n\nHint: the answer is on screen in this clip. Spotted it? It's Unity, with the code written in C#. That editor and that script are where every red block gets its job.\n\nSo if you had Unity open right now, what would you build first? A platformer? A puzzle game? Something even harder than this?\n\nImpact Zero is out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me your game idea below.\n\n#impactzero #gamedev #indiedev #indiegamedev #iphonegames"
+  },
+  "R023_pause": {
+   "slot": "4:30 PM PT (Reel C - Community / Challenge)",
+   "series": "Pause challenge",
+   "outcome": "By the end, viewers comment the exact second they think they would have crashed.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 0,
+     "end": 19.5
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Pause when you think you'd crash.",
+     "payoff": "One touch of red ends the run."
+    },
+    {
+     "open": "Still watching?",
+     "payoff": "Then you've survived longer than you think."
+    },
+    {
+     "open": "What second would you crash?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Mobile game challenge: pause when you'd CRASH."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One touch of RED ends the run."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Still watching?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Then you'd have made it this far."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what second would you crash?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then your second."
+    }
+   ],
+   "voiceover": "Pause when you think you'd crash. One touch of red ends the run. Still watching? Then you'd have made it this far. So what second would you crash? Comment PLAY for the link, then your second.",
+   "caption": "Mobile game challenge: pause this Impact Zero run the moment you think you'd crash.\n\nOne touch of red ends the run - no second chances, back to the start of the course. Still watching? Then you'd have made it this far without a single touch of red. Every second here is a choice of line.\n\nSo what second did you pause on?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment the second you'd crash.\n\n#impactzero #gamerchallenge #mobilegaming #iphonegame #ragegame"
+  },
+  "R024_pov": {
+   "slot": "8:00 PM PT (Reel D - Hook / POV)",
+   "series": "POV",
+   "outcome": "By the end, viewers pick SLOW or GO for the last stretch before the finish.",
+   "segments": [
+    {
+     "src": "gp_v1",
+     "start": 5.6,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 13,
+     "end": 19.5
+    },
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 28.6
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "POV: one block from the finish.",
+     "payoff": "Then you see the red."
+    },
+    {
+     "open": "What now?",
+     "payoff": "One touch and the whole run is gone."
+    },
+    {
+     "open": "Slow down or go for it?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "POV: one block from the finish in Impact Zero."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Then you see the RED."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "What now?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One touch and the whole run is gone."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Slow down... or GO for it?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then SLOW or GO."
+    }
+   ],
+   "voiceover": "POV: you're one block from the finish in Impact Zero. Then you see the red. What now? One touch and the whole run is gone. Slow down, or go for it? Comment PLAY for the link, then slow or go.",
+   "caption": "POV: you're one block from the finish in Impact Zero (hard iPhone game).\n\nThen you see the red. Your thumb freezes. Your heart rate doesn't. One touch and the whole run is gone - back to the very start of the course.\n\nSo what do you do: slow down and play it safe, or go for it?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment SLOW or GO.\n\n#impactzero #indiegames #mobilegamer #newgame #gaming"
+  }
+ },
+ "carousel": {
+  "C011_hardvsunfair2": {
+   "slot": "11:30 AM PT (Carousel 1) - Part 2 of best post C009",
+   "series": "Hard vs unfair (Part 2)",
+   "outcome": "By the end, viewers vote which of three real moments feels unfair.",
+   "slides": [
+    {
+     "head": "Hard or unfair? Part 2: you be the judge.",
+     "sub": "",
+     "visual": "gp_v5@6"
+    },
+    {
+     "head": "Moment 1: a red wall on your left, lasers ahead.",
+     "sub": "Hard or unfair?",
+     "visual": "gp_v1@2"
+    },
+    {
+     "head": "Moment 2: a red barrier right across the path.",
+     "sub": "Hard or unfair?",
+     "visual": "gp_v1@7"
+    },
+    {
+     "head": "Moment 3: a thin green path, red on both sides.",
+     "sub": "So which one is the unfair one?",
+     "visual": "gp_v5@15"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then 1, 2 or 3.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Hard or unfair? Part 2 - you judge 3 real moments from Impact Zero (hard mobile game).\n\nMoment 1: a red wall on your left, lasers ahead. Moment 2: a red barrier right across the path. Moment 3: a thin green path with red on both sides.\n\nOne touch of red ends the run in all of them. So which one crosses the line from hard to unfair?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then vote 1, 2 or 3.\n\n#impactzero #hardgame #iphonegames #indiegame #mobilegame"
+  },
+  "C012_cracked": {
+   "slot": "6:00 PM PT (Carousel 2)",
+   "series": "Cube lore (question only)",
+   "outcome": "By the end, viewers share their own theory about the cube's crack.",
+   "slides": [
+    {
+     "head": "What cracked the Impact Zero cube?",
+     "sub": "",
+     "visual": "gp_v5@25"
+    },
+    {
+     "head": "Look closer: the cube carries a lightning crack.",
+     "sub": "So where did it come from?",
+     "visual": "gp_v1@11"
+    },
+    {
+     "head": "The red? A crash? Something before the first course?",
+     "sub": "Nobody has guessed it yet.",
+     "visual": "gp_v5@17.5"
+    },
+    {
+     "head": "Your theory could be the best one.",
+     "sub": "So what's yours?",
+     "visual": "keyart"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then your theory.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "What cracked the cube in Impact Zero? (iPhone obstacle course game)\n\nLook closer at the cube you steer: it carries a glowing lightning crack. So where did it come from? Was it the red? A crash? Something that happened before the first course?\n\nNobody has guessed it yet - and I want to hear the wildest theory you've got.\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your theory below.\n\n#impactzero #indiegames #appstoregames #mobilegameplay #iosgames"
+  }
+ }
+}
