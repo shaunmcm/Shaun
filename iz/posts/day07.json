@@ -1,0 +1,461 @@
+{
+ "day": "2026-10-28",
+ "account": "Smzz_220 (instagramPageId 17841442662401596)",
+ "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+ "fact_rule": "NO TIMER. No numbered-level contents, no obstacle speeds, no claims about which obstacles are in which courses. Verified: 35 unique levels, red = one-touch death, nearly impossible obstacle courses, iPhone, $2.99, Unity + C#, script names visible in v4_bts (Rotate, SideToSide, UpDown, Mover); owner said lasers were the more difficult part.",
+ "notes": "Oct 27: R021 first-try 1 like, all else 0. Followers 80 (-1). No Part 2 (nothing beat 3x a meaningful median).",
+ "reels": {
+  "R025_lasers": {
+   "slot": "9:00 AM PT (Reel A - Hook/Gameplay)",
+   "series": "Dev's pick",
+   "outcome": "By the end, viewers know the dev's pick for the hardest part (the lasers) and vote LASERS or WALLS.",
+   "segments": [
+    {
+     "src": "gp_v1",
+     "start": 0,
+     "end": 4.6
+    },
+    {
+     "src": "gp_v5",
+     "start": 13,
+     "end": 19.5
+    },
+    {
+     "src": "gp_v1",
+     "start": 7,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 25
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "The dev's pick for the hardest part?",
+     "payoff": "The lasers."
+    },
+    {
+     "open": "Why lasers?",
+     "payoff": "Thin, easy to miss, one touch ends it."
+    },
+    {
+     "open": "Agree, or is it the walls?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "The dev's pick: hardest part of Impact Zero?"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "The LASERS."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Why the lasers?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Thin. Easy to miss. One touch ends it."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Agree... or is it the WALLS?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then LASERS or WALLS."
+    }
+   ],
+   "voiceover": "The dev's pick for the hardest part of Impact Zero? The lasers. Why the lasers? Thin, easy to miss, and one touch ends it. Agree, or is it the walls? Comment PLAY for the link, then lasers or walls.",
+   "caption": "Hardest part of Impact Zero? The dev's pick: the lasers. (hard iPhone game)\n\nAsked which obstacle made testing hardest, the answer was straight: the lasers were definitely the more difficult part. Thin red lines, easy to miss until you're already in them - and one touch ends the run.\n\nSo do you agree? Or are the big red walls worse?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then vote LASERS or WALLS.\n\n#impactzero #hardgame #iphonegames #indiegame #ragegame"
+  },
+  "R026_scripts": {
+   "slot": "1:00 PM PT (Reel B - Dev / BTS)",
+   "series": "In the code",
+   "outcome": "By the end, viewers have seen the movement scripts in the project and pick which kind of move is worst to dodge.",
+   "segments": [
+    {
+     "src": "v4_bts",
+     "start": 0,
+     "end": 12.4
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 25,
+     "end": 26.5
+    }
+   ],
+   "audio_bed": {
+    "src": "gp_v5",
+    "start": 0
+   },
+   "gain": 1.7,
+   "loops": [
+    {
+     "open": "What makes the red blocks move?",
+     "payoff": "Scripts, right there in the project."
+    },
+    {
+     "open": "Which ones?",
+     "payoff": "Rotate. SideToSide. UpDown."
+    },
+    {
+     "open": "Which move is worst to dodge?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Indie dev: what makes red blocks MOVE?"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Scripts. Right there in the project."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Which ones?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "ROTATE. SideToSide. UpDown."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So which move is worst to dodge?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then pick one."
+    }
+   ],
+   "voiceover": "Indie dev: what makes the red blocks move? Scripts, right there in the project. Which ones? Rotate, side to side, up down. So which move is the worst to dodge? Comment PLAY for the link, then pick one.",
+   "caption": "Indie game dev: what makes the red blocks in Impact Zero move?\n\nOpen the project and the answer is right there in the scripts folder: Rotate. SideToSide. UpDown. Mover. Each one is a C# script in Unity, and each one is a different way a red block can get in your way.\n\nSo which kind of move is the worst to dodge - spinning, side to side, or up and down?\n\nImpact Zero is out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then pick ROTATE, SIDE or UP.\n\n#impactzero #gamedev #indiedev #indiegamedev #iosgames"
+  },
+  "R027_thumb": {
+   "slot": "4:30 PM PT (Reel C - Challenge)",
+   "series": "Thumb challenge",
+   "outcome": "By the end, viewers have tried to follow the cube with a thumb and report MADE IT or LOST IT.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 6,
+     "end": 19.5
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 14.4
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Follow the cube with your thumb.",
+     "payoff": "Easy at first."
+    },
+    {
+     "open": "Still on it?",
+     "payoff": "Red is never far from the green."
+    },
+    {
+     "open": "Made it to the end?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Mobile game challenge: follow the cube with your THUMB."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Easy at first, right?"
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Still on it?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "RED is never far from the green."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Did you make it to the end?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then MADE IT or LOST IT."
+    }
+   ],
+   "voiceover": "Mobile game challenge: follow the cube with your thumb. Easy at first, right? Still on it? Red is never far from the green. Did you make it to the end? Comment PLAY for the link, then made it or lost it.",
+   "caption": "Thumb challenge: put your thumb on the screen and follow the cube through this whole Impact Zero run. (mobile game challenge)\n\nEasy at first. Then the red starts closing in, and it's never far from the green path. In the real game, one touch of red ends the run.\n\nDid your thumb stay with it all the way?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment MADE IT or LOST IT.\n\n#impactzero #gamechallenge #mobilegamer #iphonegame #speedrun"
+  },
+  "R028_name": {
+   "slot": "8:00 PM PT (Reel D - Community)",
+   "series": "Name this course",
+   "outcome": "By the end, viewers suggest their own name for the course they just watched.",
+   "segments": [
+    {
+     "src": "gp_v1",
+     "start": 6,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 28.6
+    },
+    {
+     "src": "gp_v5",
+     "start": 0,
+     "end": 6
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Give this course a name.",
+     "payoff": "Red walls, red blocks, one green path."
+    },
+    {
+     "open": "Still thinking?",
+     "payoff": "Watch where the red sits."
+    },
+    {
+     "open": "What would you call it?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Name this Impact Zero course. Go."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Red walls. Red blocks. One green path."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Still thinking?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Watch where the RED sits."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what would YOU call it?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then name it."
+    }
+   ],
+   "voiceover": "Name this Impact Zero course. Go. Red walls, red blocks, one green path. Still thinking? Watch where the red sits. So what would you call it? Comment PLAY for the link, then name it.",
+   "caption": "Name this Impact Zero course. (hard iPhone obstacle course game)\n\nRed walls. Red blocks. One green path down the middle - and one touch of red sends you back to the start.\n\nWatch it once, then give it a name. Funny, brutal, dramatic - I'm reading every single one, and the best names might end up in a future post.\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your course name below.\n\n#impactzero #indiegames #mobilegaming #newgame #obstaclecourse"
+  }
+ },
+ "carousel": {
+  "C013_redgreen": {
+   "slot": "11:30 AM PT (Carousel 1)",
+   "series": "Red = Death",
+   "outcome": "By the end, viewers know the two colors that decide every run and say which one they watch.",
+   "slides": [
+    {
+     "head": "Two colors decide every Impact Zero run. Which two?",
+     "sub": "",
+     "visual": "gp_v1@7"
+    },
+    {
+     "head": "GREEN: the path you can stand on.",
+     "sub": "So what's the other one?",
+     "visual": "gp_v1@11"
+    },
+    {
+     "head": "RED: walls, blocks, lasers. One touch and it's over.",
+     "sub": "So why is red so hard to avoid?",
+     "visual": "gp_v1@2"
+    },
+    {
+     "head": "Because it's always right next to the green.",
+     "sub": "So which one do you watch?",
+     "visual": "gp_v5@15"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then RED or GREEN.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Two colors decide every run in Impact Zero. (hard mobile game)\n\nGreen: the path you can stand on. Red: walls, blocks and lasers - one touch and the run is over.\n\nSo why is red so hard to avoid? Because it's always right next to the green. Your eyes have to pick one.\n\nWhich one do you watch - the red you're dodging, or the green you're aiming for?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment RED or GREEN.\n\n#impactzero #mobilegame #gaming #hardgame #iosgames"
+  },
+  "C014_playertype": {
+   "slot": "6:00 PM PT (Carousel 2)",
+   "series": "Which player are you",
+   "outcome": "By the end, viewers pick which of three player types they are.",
+   "slides": [
+    {
+     "head": "Which Impact Zero player are you?",
+     "sub": "",
+     "visual": "gp_v5@6"
+    },
+    {
+     "head": "1. The Sprinter: full speed, trusts the thumb, clips the edge.",
+     "sub": "Sound like you? Or...",
+     "visual": "gp_v5@17.5"
+    },
+    {
+     "head": "2. The Planner: studies the red, freezes at the gap.",
+     "sub": "Or are you...",
+     "visual": "gp_v1@7"
+    },
+    {
+     "head": "3. The One-More-Try: loses, says 'last one', plays ten more.",
+     "sub": "So which one is you?",
+     "visual": "gp_v1@11"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then 1, 2 or 3.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Which Impact Zero player are you? (iPhone obstacle course game)\n\n1. The Sprinter: full speed, trusts the thumb, clips the edge. 2. The Planner: studies every red block, then freezes at the gap. 3. The One-More-Try: loses, says 'last one', plays ten more.\n\nEvery one of them meets the same rule: one touch of red and the run is over.\n\nSo which one are you - be honest?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment 1, 2 or 3.\n\n#impactzero #mobilegamer #indiegame #appstoregames #gamerchallenge"
+  }
+ }
+}

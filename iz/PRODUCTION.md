@@ -56,6 +56,8 @@ Standing rule from the user's other pages (Oct 20): write the one-sentence outco
 - Slots (PT) from Oct 22: Reel A 9:00 AM · Carousel 1 11:30 AM · Reel B 1:00 PM · Reel C 4:30 PM · Carousel 2 6:00 PM · Reel D 8:00 PM. Log to posted.log and content_log.tsv.
 
 ## "Comment PLAY" system
+- Before replying, fetch replies too (comments{...,replies{...}}): if smzz_220 (the owner) already replied to a comment, do NOT add a second reply - log it as owner-replied-manually. (Oct 26: Shaun answered khuzaima_accel_brands himself; Claude's reply doubled it.)
+- Owner-stated fact (Oct 26, his own reply): the lasers were the more difficult part. Usable as "the dev says lasers were the hardest part".
 - Every 2 h (8 AM–10:30 PM PT) a task reads comments on the last 10 Smzz_220 posts (GET /<pageId>/media?fields=id,permalink,comments{id,text,username,timestamp}). For any comment containing "play" (case-insensitive) not yet in comments_log.tsv and not by Smzz_220: reply via Make API Mutating Request POST /<comment-id>/replies?message=<reply>. Reply text: "Here you go 🎮 https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326 — comment the level that stops you!". Also send that link by DM only if a DM action is available; otherwise the reply is enough. Reply kindly to other comments (level numbers, feedback) in the dev's voice; never argue.
 
 ## Content series to rotate (no repeats within 7 days)
