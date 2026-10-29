@@ -1,0 +1,456 @@
+{
+ "day": "2026-10-29",
+ "account": "Smzz_220 (instagramPageId 17841442662401596)",
+ "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+ "fact_rule": "Same as day07. 'Geometry No Dash' is a real course name from a viewer comment (o4.maiko, Oct 29) - quote the name only, not the username.",
+ "notes": "Oct 28: R028 'Name this course' best (1 like + 1 real comment) -> Part 2 at 8 PM. R024 POV (Oct 27) reached 3 likes. Followers 81 (+1).",
+ "reels": {
+  "R029_leftright": {
+   "slot": "9:00 AM PT (Reel A - Gameplay hook)",
+   "series": "Left or right",
+   "outcome": "By the end, viewers say which side they drift toward when red is on both sides.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 13,
+     "end": 19.5
+    },
+    {
+     "src": "gp_v1",
+     "start": 0,
+     "end": 4.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 7,
+     "end": 14.4
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Left wall or right wall?",
+     "payoff": "Both are red."
+    },
+    {
+     "open": "So which one gets you?",
+     "payoff": "Either way, one touch ends the run."
+    },
+    {
+     "open": "Which side do you drift toward?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Impact Zero: LEFT wall or RIGHT wall?"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Both are RED."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So which one gets you?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Either way, one touch ends the run."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Which side do YOU drift toward?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then LEFT or RIGHT."
+    }
+   ],
+   "voiceover": "Impact Zero: left wall or right wall? Both are red. So which one gets you? Either way, one touch ends the run. Which side do you drift toward? Comment PLAY for the link, then left or right.",
+   "caption": "Hard iPhone game question: in Impact Zero, which wall gets you - left or right?\n\nBoth are red. Both end the run on one touch. But everyone has a side they drift toward when the path gets tight, and it's usually not the one they think.\n\nWatch the run and be honest: which side would you clip first?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment LEFT or RIGHT.\n\n#impactzero #mobilegame #hardgame #iosgames #gamechallenge"
+  },
+  "R030_trap": {
+   "slot": "1:00 PM PT (Reel B - Dev / BTS)",
+   "series": "Design a trap",
+   "outcome": "By the end, viewers have seen where courses start (the Unity editor) and describe a red trap they would build.",
+   "segments": [
+    {
+     "src": "v4_bts",
+     "start": 0,
+     "end": 12.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 28.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 11
+    }
+   ],
+   "audio_bed": {
+    "src": "gp_v5",
+    "start": 0
+   },
+   "gain": 1.7,
+   "loops": [
+    {
+     "open": "Design the next red trap.",
+     "payoff": "Here's where every course starts."
+    },
+    {
+     "open": "Where?",
+     "payoff": "In the Unity editor, scripted in C#."
+    },
+    {
+     "open": "So what trap would you build?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Indie dev challenge: design a RED trap."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Here's where every course starts."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Recognise it?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "The UNITY editor. Scripts in C#."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what trap would YOU build?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then describe your trap."
+    }
+   ],
+   "voiceover": "Indie dev challenge: design a red trap. Here's where every course starts. Recognise it? The Unity editor, with scripts in C sharp. So what trap would you build? Comment PLAY for the link, then describe your trap.",
+   "caption": "Indie game dev challenge: design a red trap for Impact Zero.\n\nThis is where every course starts - the Unity editor, with C# scripts deciding how things move. Walls, blocks, lasers: one touch of red and the run is over.\n\nSo if you had the editor open, what trap would you build? Moving walls? A laser maze? Something nobody's thought of?\n\nImpact Zero is out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then describe your trap below - the meanest one wins bragging rights.\n\n#impactzero #gamedev #indiedev #indiegamedev #iphonegames"
+  },
+  "R031_rate": {
+   "slot": "4:30 PM PT (Reel C - Challenge)",
+   "series": "Rate my run",
+   "outcome": "By the end, viewers rate the run 1-10.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 0,
+     "end": 13.5
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 14.4
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Rate this run 1 to 10.",
+     "payoff": "No red touched."
+    },
+    {
+     "open": "Clean... or lucky?",
+     "payoff": "One touch and it would be over."
+    },
+    {
+     "open": "So what's your number?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Rate this Impact Zero run, 1 to 10."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "No RED touched. Yet."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Clean... or lucky?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One touch and it would be over."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what's your number?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then rate it 1-10."
+    }
+   ],
+   "voiceover": "Rate this Impact Zero run, one to ten. No red touched, yet. Clean, or lucky? One touch and it would be over. So what's your number? Comment PLAY for the link, then rate it.",
+   "caption": "Rate this Impact Zero run from 1 to 10. (hard mobile game)\n\nNo red touched. Tight lines, close edges, and one touch of red would have sent it straight back to the start of the course.\n\nSo was it clean - or just lucky? Look at the edges before you answer. And could you do it better?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then rate the run 1-10 in the comments.\n\n#impactzero #mobilegameplay #gamerchallenge #iphonegame #ragegame"
+  },
+  "R032_name2": {
+   "slot": "8:00 PM PT (Reel D - Community, Part 2 of R028)",
+   "series": "Name this course (Part 2)",
+   "outcome": "By the end, viewers suggest a name for a second course, after seeing a real name from the last post.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 28.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 6,
+     "end": 14
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Last course got named 'Geometry No Dash'.",
+     "payoff": "Now name this one."
+    },
+    {
+     "open": "Need a hint?",
+     "payoff": "Red everywhere, one thin path."
+    },
+    {
+     "open": "Can you beat 'Geometry No Dash'?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Part 2: name this Impact Zero course."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Last one got: 'Geometry No Dash'."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Can you beat that?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "RED everywhere. One thin path."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what would YOU call it?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then name it."
+    }
+   ],
+   "voiceover": "Part 2: name this Impact Zero course. The last one got Geometry No Dash. Can you beat that? Red everywhere, one thin path. So what would you call it? Comment PLAY for the link, then name it.",
+   "caption": "Part 2: name this Impact Zero course. (iPhone obstacle course game)\n\nLast time, the best name in the comments was 'Geometry No Dash' - and honestly, it fits. One touch of red and there's no dashing anywhere.\n\nSo here's a new course. Red everywhere, one thin green path. Can you come up with a better name?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your course name below.\n\n#impactzero #indiegame #mobilegamer #newgame #gaming"
+  }
+ },
+ "carousel": {
+  "C015_extralife": {
+   "slot": "11:30 AM PT (Carousel 1)",
+   "series": "Debate: extra life",
+   "outcome": "By the end, viewers vote whether Impact Zero should stay one-touch or get an extra life.",
+   "slides": [
+    {
+     "head": "One extra life in Impact Zero. Better or worse?",
+     "sub": "",
+     "visual": "gp_v5@15"
+    },
+    {
+     "head": "With it: you'd relax. Take bigger risks.",
+     "sub": "So would it be easier?",
+     "visual": "gp_v1@7"
+    },
+    {
+     "head": "Without it: every block matters. Every run is tense.",
+     "sub": "So which is more fun?",
+     "visual": "gp_v5@17.5"
+    },
+    {
+     "head": "Right now it's one touch of red. That's it.",
+     "sub": "Keep it... or change it?",
+     "visual": "gp_v1@2"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then EXTRA LIFE or ONE TOUCH.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Would Impact Zero be better with one extra life? (hard mobile game debate)\n\nWith an extra life, you'd relax and take bigger risks. Without it, every block matters and every run is tense. Right now it's one touch of red and the run is over - no second chances.\n\nSo which is more fun: the safety net, or the pressure?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then vote EXTRA LIFE or ONE TOUCH.\n\n#impactzero #mobilegame #indiegames #hardgame #appstoregames"
+  },
+  "C016_thisorthat": {
+   "slot": "6:00 PM PT (Carousel 2)",
+   "series": "This or that",
+   "outcome": "By the end, viewers answer four quick this-or-that picks about how they play.",
+   "slides": [
+    {
+     "head": "Impact Zero this-or-that. Answer fast.",
+     "sub": "",
+     "visual": "gp_v5@6"
+    },
+    {
+     "head": "Sound ON or sound OFF?",
+     "sub": "Next one's harder...",
+     "visual": "gp_v1@11"
+    },
+    {
+     "head": "Play in bed or on the couch?",
+     "sub": "And the real question...",
+     "visual": "gp_v5@15"
+    },
+    {
+     "head": "Quit after 1 crash or after 50?",
+     "sub": "Be honest.",
+     "visual": "gp_v1@7"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then your 3 answers.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Impact Zero this-or-that - answer fast, don't overthink it. (iPhone game)\n\n1. Sound ON or sound OFF?\n2. Play in bed or on the couch?\n3. Quit after 1 crash or after 50?\n\nIn a game where one touch of red ends the run, number 3 says a lot about you.\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your 3 answers, like: OFF / BED / 50.\n\n#impactzero #mobilegaming #iosgames #gaming #indiegame"
+  }
+ }
+}
