@@ -1,0 +1,461 @@
+{
+ "day": "2026-10-30",
+ "account": "Smzz_220 (instagramPageId 17841442662401596)",
+ "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+ "fact_rule": "Same as day08.",
+ "notes": "Oct 29: only R032 name Part 2 got 1 like; all else 0. R028 'Name this course' now 3 likes / 2 real comments - community-creation asks are the only format drawing comments, so 4 of 6 today are creation asks. Followers 81 (0).",
+ "reels": {
+  "R033_caption": {
+   "slot": "9:00 AM PT (Reel A - Gameplay / community)",
+   "series": "Caption this",
+   "outcome": "By the end, viewers write their own caption for the moment the cube meets the red barrier.",
+   "segments": [
+    {
+     "src": "gp_v1",
+     "start": 6,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 6,
+     "end": 13
+    },
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 27
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Caption this moment.",
+     "payoff": "A red barrier, dead ahead."
+    },
+    {
+     "open": "What's the cube thinking?",
+     "payoff": "One touch and it's over."
+    },
+    {
+     "open": "Your caption?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Caption this Impact Zero moment."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "A RED barrier, dead ahead."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "What's the cube thinking?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One touch and it's over."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So... what's YOUR caption?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then your caption."
+    }
+   ],
+   "voiceover": "Caption this Impact Zero moment. A red barrier, dead ahead. What's the cube thinking? One touch and it's over. So what's your caption? Comment PLAY for the link, then your caption.",
+   "caption": "Caption this Impact Zero moment. (hard iPhone game)\n\nGreen path. A red barrier dead ahead. One touch and the run is over, straight back to the start of the course.\n\nSo what is the cube thinking right now? Funny, dramatic, painfully relatable - write the caption you'd put on this exact frame.\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your caption below - I'm reading all of them.\n\n#impactzero #mobilegame #indiegame #gaming #iphonegames"
+  },
+  "R034_buildbeat": {
+   "slot": "1:00 PM PT (Reel B - Dev / BTS)",
+   "series": "Build or beat",
+   "outcome": "By the end, viewers say whether they'd rather build a hard game or beat one.",
+   "segments": [
+    {
+     "src": "v4_bts",
+     "start": 0,
+     "end": 12.4
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 25,
+     "end": 26.5
+    }
+   ],
+   "audio_bed": {
+    "src": "gp_v5",
+    "start": 0
+   },
+   "gain": 1.7,
+   "loops": [
+    {
+     "open": "Build a hard game, or beat one?",
+     "payoff": "Building: Unity, C#, every red block placed."
+    },
+    {
+     "open": "And beating it?",
+     "payoff": "One touch of red and you start over."
+    },
+    {
+     "open": "Which would you pick?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Indie dev: BUILD a hard game or BEAT one?"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Building: UNITY, C#, every red block."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "And beating it?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One touch of RED. Start over."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So which would YOU pick?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then BUILD or BEAT."
+    }
+   ],
+   "voiceover": "Indie dev question: would you rather build a hard game, or beat one? Building means Unity, C sharp, every red block. Beating it? One touch of red and you start over. So which would you pick? Comment PLAY for the link, then build or beat.",
+   "caption": "Indie game dev question: would you rather BUILD a hard game or BEAT one?\n\nBuilding Impact Zero meant Unity, C# scripts and every red block in the project. Beating it means 35 nearly impossible obstacle courses where one touch of red sends you back to the start.\n\nBoth take patience. Only one ends with your thumb shaking. Which would you pick?\n\nImpact Zero is out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment BUILD or BEAT.\n\n#impactzero #gamedev #indiedev #indiegamedev #mobilegamer"
+  },
+  "R035_predict": {
+   "slot": "4:30 PM PT (Reel C - Challenge)",
+   "series": "Prediction challenge",
+   "outcome": "By the end, viewers say whether they called it right before the cube reached the next red.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 13,
+     "end": 19.5
+    },
+    {
+     "src": "gp_v1",
+     "start": 0,
+     "end": 4.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 7,
+     "end": 14.4
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Will the cube make it past the next red?",
+     "payoff": "Decide before you see it."
+    },
+    {
+     "open": "Watch the gap.",
+     "payoff": "One touch ends the run."
+    },
+    {
+     "open": "Did you call it?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Prediction challenge: will it clear the next RED?"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Decide NOW. Before you see it."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Watch the gap..."
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One touch would end the run."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So... did you call it?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then CALLED IT or MISSED."
+    }
+   ],
+   "voiceover": "Prediction challenge: will the cube clear the next red? Decide now, before you see it. Watch the gap. One touch would end the run. So, did you call it? Comment PLAY for the link, then called it or missed.",
+   "caption": "Prediction challenge: will the cube clear the next red in Impact Zero? (mobile game challenge)\n\nDecide in the first second - before you see it. Then watch the gap. In this game one touch of red ends the run, so every edge is a coin flip until it isn't.\n\nDid your prediction hold up, or did the red surprise you?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment CALLED IT or MISSED.\n\n#impactzero #gamechallenge #mobilegaming #iosgames #hardgame"
+  },
+  "R036_namecube": {
+   "slot": "8:00 PM PT (Reel D - Community creation)",
+   "series": "Name the cube",
+   "outcome": "By the end, viewers suggest a name for the cracked cube they steer.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 28.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 0,
+     "end": 8
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "This cube needs a name.",
+     "payoff": "Cracked. Glowing. Dodging red."
+    },
+    {
+     "open": "Still nameless?",
+     "payoff": "Not for long."
+    },
+    {
+     "open": "What would you call it?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "The Impact Zero cube needs a NAME."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Cracked. Glowing. Dodging RED."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Any ideas yet?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Funny, epic, tragic - all welcome."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what would YOU call it?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then name the cube."
+    }
+   ],
+   "voiceover": "The Impact Zero cube needs a name. Cracked, glowing, dodging red. Any ideas yet? Funny, epic, tragic, all welcome. So what would you call it? Comment PLAY for the link, then name the cube.",
+   "caption": "Name the cube. (Impact Zero, hard iPhone obstacle course game)\n\nYou've seen it: cracked, glowing, and dodging red through 35 nearly impossible courses. One touch and it's back to the start - again and again.\n\nAfter all that, it deserves a name. Funny, epic or tragic - what would you call it? The best names might show up in a future post.\n\nImpact Zero is out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your name for the cube below.\n\n#impactzero #indiegames #mobilegamer #newgame #appstoregames"
+  }
+ },
+ "carousel": {
+  "C017_build3": {
+   "slot": "11:30 AM PT (Carousel 1)",
+   "series": "Build your course (3 picks)",
+   "outcome": "By the end, viewers have designed a course in three picks and post their combo.",
+   "slides": [
+    {
+     "head": "Build your own Impact Zero course in 3 picks. Ready?",
+     "sub": "",
+     "visual": "gp_v5@6"
+    },
+    {
+     "head": "Pick 1: WALLS, BLOCKS or LASERS?",
+     "sub": "Next pick...",
+     "visual": "gp_v1@2"
+    },
+    {
+     "head": "Pick 2: a wide path or a thin one?",
+     "sub": "Last pick...",
+     "visual": "gp_v5@15"
+    },
+    {
+     "head": "Pick 3: straight line or sharp turns?",
+     "sub": "Got your combo?",
+     "visual": "gp_v1@7"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then your 3 picks.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Build your own Impact Zero course in 3 picks. (hard mobile game)\n\nPick 1: walls, blocks or lasers?\nPick 2: a wide path or a thin one?\nPick 3: a straight line or sharp turns?\n\nEvery combo follows the same rule: one touch of red and the run is over. So which combo would be the meanest?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then post your 3 picks, like: LASERS / THIN / TURNS.\n\n#impactzero #obstaclecourse #indiegame #iosgames #gamechallenge"
+  },
+  "C018_fourwords": {
+   "slot": "6:00 PM PT (Carousel 2)",
+   "series": "Every run in 4 words",
+   "outcome": "By the end, viewers know the 4-word loop of every run and add their own fifth word.",
+   "slides": [
+    {
+     "head": "Every Impact Zero run in 4 words. Can you guess them?",
+     "sub": "",
+     "visual": "gp_v1@11"
+    },
+    {
+     "head": "1. FOCUS. Eyes on the gap.",
+     "sub": "Then...",
+     "visual": "gp_v5@15"
+    },
+    {
+     "head": "2. TOUCH. One brush of red.",
+     "sub": "Which means...",
+     "visual": "gp_v1@2"
+    },
+    {
+     "head": "3. RESTART. Back to the start of the course.",
+     "sub": "And word 4?",
+     "visual": "gp_v5@17.5"
+    },
+    {
+     "head": "4. AGAIN. Obviously.",
+     "sub": "Comment PLAY for the link. Then your 5th word.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Every Impact Zero run, in 4 words. (hard iPhone game)\n\n1. FOCUS - eyes on the gap.\n2. TOUCH - one brush of red.\n3. RESTART - back to the start of the course.\n4. AGAIN - obviously.\n\nThat's the loop. But there's always a fifth word that slips out somewhere between 3 and 4. What's yours?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your 5th word below.\n\n#impactzero #hardgame #ragegame #mobilegameplay #gaming"
+  }
+ }
+}
