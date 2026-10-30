@@ -8,7 +8,7 @@ def d2(img):
     d = ImageDraw.Draw(img); pill(d, 540, 1120, "Comment BOOK", size=56, bg=TERRA)
     return img
 SPEC = {"id": "C011_candy", "slides": [
-    {"text": "Tonight your kid gets a *bag of currency.*", "size": 80, "swipe": True,
+    {"text": "Tomorrow your kid gets a *bag of currency.*", "size": 80, "swipe": True,
      "sub": "Halloween candy is a money lesson hiding in plain sight.", "draw": d1},
     {"kicker": "THE FIX", "text": "Let them *trade.*", "size": 88,
      "sub": "Ask: \"Is that a fair trade? Why?\" That's value and trade-offs. Comment *BOOK* before the candy runs out.", "draw": d2},
