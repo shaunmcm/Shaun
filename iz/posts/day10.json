@@ -1,0 +1,456 @@
+{
+ "day": "2026-10-31",
+ "account": "Smzz_220 (instagramPageId 17841442662401596)",
+ "app_store": "https://apps.apple.com/us/app/impact-zero-space-trials/id6808934326",
+ "fact_rule": "Same as day09. Halloween theme is framing only - no invented Halloween content in the game.",
+ "notes": "Oct 30: only R036 'Name the cube' got 1 like; all else 0. Followers 80 (-1). Halloween theme for reach on trending tags; still leaning on creation asks.",
+ "reels": {
+  "R037_scariest": {
+   "slot": "9:00 AM PT (Reel A - Gameplay, Halloween)",
+   "series": "Halloween: scariest thing",
+   "outcome": "By the end, viewers share the gaming moment that scares them most.",
+   "segments": [
+    {
+     "src": "gp_v1",
+     "start": 0,
+     "end": 4.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 7,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 13,
+     "end": 19.5
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Scariest thing in Impact Zero this Halloween?",
+     "payoff": "Not ghosts. Red."
+    },
+    {
+     "open": "Why red?",
+     "payoff": "One touch and the run is over."
+    },
+    {
+     "open": "What's your gaming jump scare?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Scariest thing in Impact Zero this Halloween?"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Not ghosts. Not zombies. RED."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Why red?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One touch and the run is over."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what's YOUR gaming jump scare?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then your jump scare."
+    }
+   ],
+   "voiceover": "Scariest thing in Impact Zero this Halloween? Not ghosts. Not zombies. Red. Why red? One touch and the run is over. So what's your gaming jump scare? Comment PLAY for the link, then tell me.",
+   "caption": "The scariest thing in Impact Zero this Halloween? Not ghosts. Not zombies. Red. (hard iPhone game)\n\nRed walls, red blocks, red lasers - and one touch of any of them ends the run and sends you back to the start of the course.\n\nSo what's your gaming jump scare? The moment in any game that makes your heart drop?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me your jump scare below. Happy Halloween.\n\n#impactzero #mobilegame #hardgame #gaming #iphonegames"
+  },
+  "R038_bugblock": {
+   "slot": "1:00 PM PT (Reel B - Dev / BTS, Halloween)",
+   "series": "Dev Halloween: bug or block",
+   "outcome": "By the end, viewers pick what's scarier: a bug for the dev or a red block for the player.",
+   "segments": [
+    {
+     "src": "v4_bts",
+     "start": 0,
+     "end": 12.4
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 25,
+     "end": 26.5
+    }
+   ],
+   "audio_bed": {
+    "src": "gp_v5",
+    "start": 0
+   },
+   "gain": 1.7,
+   "loops": [
+    {
+     "open": "What's scarier for an indie dev?",
+     "payoff": "A bug hiding in the code."
+    },
+    {
+     "open": "And for the player?",
+     "payoff": "One red block."
+    },
+    {
+     "open": "Which scares you more?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Indie dev Halloween: what's SCARIER?"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "For the dev: a BUG in the code."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "And for the player?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "One RED block. One touch."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So which scares YOU more?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then BUG or BLOCK."
+    }
+   ],
+   "voiceover": "Indie dev Halloween: what's scarier? For the dev, a bug hiding in the code. For the player? One red block, one touch. So which scares you more? Comment PLAY for the link, then bug or block.",
+   "caption": "Indie game dev Halloween question: what's scarier?\n\nFor the dev: a bug hiding somewhere in the Unity project's C# scripts, and you can't find it. For the player: one red block, because one touch ends the run and sends you back to the start.\n\nBoth will haunt you at 2 AM. Which one scares you more?\n\nImpact Zero is out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment BUG or BLOCK.\n\n#impactzero #gamedev #indiedev #indiegamedev #iosgames"
+  },
+  "R039_countred": {
+   "slot": "4:30 PM PT (Reel C - Challenge)",
+   "series": "Spooky count",
+   "outcome": "By the end, viewers post how many red things they counted in the run.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 6,
+     "end": 19.5
+    },
+    {
+     "src": "gp_v1",
+     "start": 9,
+     "end": 14.4
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "Count every red thing.",
+     "payoff": "Walls, blocks, lasers - all count."
+    },
+    {
+     "open": "Still counting?",
+     "payoff": "Any one of them ends the run."
+    },
+    {
+     "open": "What's your number?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Halloween challenge: count every RED thing."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Walls. Blocks. Lasers. All count."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Still counting?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Any ONE of them ends the run."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what's your number?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then your count."
+    }
+   ],
+   "voiceover": "Halloween challenge: count every red thing. Walls, blocks, lasers, all count. Still counting? Any one of them ends the run. So what's your number? Comment PLAY for the link, then your count.",
+   "caption": "Halloween challenge: count every red thing in this Impact Zero run. (mobile game challenge)\n\nWalls, blocks, lasers - every red thing counts, because any single one of them ends the run on one touch.\n\nWatch it once, keep count, and don't scroll back or pause - that's cheating. What's your number?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your count below - I'll reply to every count.\n\n#impactzero #gamechallenge #mobilegamer #iphonegame #ragegame"
+  },
+  "R040_halloweennight": {
+   "slot": "8:00 PM PT (Reel D - Relatable, Halloween)",
+   "series": "Halloween night",
+   "outcome": "By the end, viewers share what they're doing on Halloween night.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 28.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 6,
+     "end": 14.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 0,
+     "end": 6
+    }
+   ],
+   "gain": 1.6,
+   "loops": [
+    {
+     "open": "It's Halloween night.",
+     "payoff": "Candy? Movies? No. One more run."
+    },
+    {
+     "open": "Then?",
+     "payoff": "The red gets you."
+    },
+    {
+     "open": "What are you doing tonight?",
+     "payoff": "CTA"
+    }
+   ],
+   "cards": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "zone": "top",
+     "style": "hook",
+     "text": "Halloween night in Impact Zero: just ONE more run."
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "Candy? Movies? Nope."
+    },
+    {
+     "t": [
+      6.0,
+      9.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "Then what?"
+    },
+    {
+     "t": [
+      9.0,
+      12.0
+     ],
+     "zone": "top",
+     "style": "answer",
+     "text": "The RED gets you. Again."
+    },
+    {
+     "t": [
+      12.0,
+      15.0
+     ],
+     "zone": "top",
+     "style": "question",
+     "text": "So what are YOU doing tonight?"
+    },
+    {
+     "t": [
+      15.0,
+      18.5
+     ],
+     "zone": "top",
+     "style": "cta",
+     "text": "Comment PLAY for the link. Then your plans."
+    }
+   ],
+   "voiceover": "Halloween night: just one more run. Candy? Movies? Nope. Then what? The red gets you, again. So what are you doing tonight? Comment PLAY for the link, then your plans.",
+   "caption": "Halloween night plans: candy, scary movies... or just one more run of Impact Zero? (hard iPhone game)\n\nOne more run turns into five. The red gets you, it's back to the start, and somehow it's midnight and the candy bowl is still full.\n\nSo what are you actually doing tonight - trick-or-treating, horror movies, or gaming?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then tell me your Halloween plans. Happy Halloween.\n\n#impactzero #indiegames #mobilegameplay #newgame #gaming"
+  }
+ },
+ "carousel": {
+  "C019_trickortreat": {
+   "slot": "11:30 AM PT (Carousel 1, Halloween)",
+   "series": "Trick or treat",
+   "outcome": "By the end, viewers say whether Impact Zero gives them more tricks or treats.",
+   "slides": [
+    {
+     "head": "Impact Zero: trick or treat?",
+     "sub": "",
+     "visual": "gp_v5@15"
+    },
+    {
+     "head": "TRICK: red that looks easy to dodge.",
+     "sub": "And the treat?",
+     "visual": "gp_v1@2"
+    },
+    {
+     "head": "TREAT: the run where you finally clear it.",
+     "sub": "So which do you get more?",
+     "visual": "gp_v1@11"
+    },
+    {
+     "head": "Most nights? One touch of red. Back to the start.",
+     "sub": "Trick... or treat?",
+     "visual": "gp_v5@17.5"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then TRICK or TREAT.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Impact Zero: trick or treat? (hard mobile game, Halloween edition)\n\nThe trick: red that looks easy to dodge - right up until one touch ends the run and sends you back to the start.\nThe treat: the run where you finally clear the course.\n\nSo which one does Impact Zero give you more - tricks or treats?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then comment TRICK or TREAT. Happy Halloween.\n\n#impactzero #mobilegame #hardgame #appstoregames #iosgames"
+  },
+  "C020_villain": {
+   "slot": "6:00 PM PT (Carousel 2, community creation)",
+   "series": "Name the villain",
+   "outcome": "By the end, viewers give the red obstacles a villain name.",
+   "slides": [
+    {
+     "head": "Every hero needs a villain. Name the RED.",
+     "sub": "",
+     "visual": "gp_v1@7"
+    },
+    {
+     "head": "It's walls. It's blocks. It's lasers.",
+     "sub": "But what's it called?",
+     "visual": "gp_v1@2"
+    },
+    {
+     "head": "One touch and it wins. Every time.",
+     "sub": "Scary enough for a name?",
+     "visual": "gp_v5@15"
+    },
+    {
+     "head": "Funny, scary, dramatic - all welcome.",
+     "sub": "So what would you call it?",
+     "visual": "keyart"
+    },
+    {
+     "head": "35 nearly impossible courses. $2.99 on iPhone.",
+     "sub": "Comment PLAY for the link. Then name the villain.",
+     "visual": "poster"
+    }
+   ],
+   "caption": "Every hero needs a villain - so name the red in Impact Zero. (iPhone obstacle course game)\n\nIt's walls. It's blocks. It's lasers. One touch and it wins, every single time, and you're back at the start of the course.\n\nThe cube is the hero. The red is the villain. It just doesn't have a name yet. Funny, scary or dramatic - what would you call it?\n\n35 nearly impossible obstacle courses, out now on iPhone for $2.99.\n\nComment PLAY and I'll send you the App Store link (also in bio). Then drop your villain name below.\n\n#impactzero #indiegame #mobilegaming #obstaclecourse #gamechallenge"
+  }
+ }
+}
