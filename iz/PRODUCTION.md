@@ -1,3 +1,11 @@
+> **NOV 9 2026 USER UPDATE (newest rules win): posting RESTARTED with the new creative brief in CREATIVE_BRIEF.md.**
+> - Game is now promoted as **Impact Zero Project on Steam** (https://store.steampowered.com/app/5001270/Impact_Zero_Project/). Steam page (checked Nov 9): release date Nov 9 2026, $8.99, demo available, Windows, dev Smzz_220. Verified features: 3D obstacle platformer, control a cube, moving obstacles, lasers, shifting platforms, precise jumps, physics-based movement, collectible bonuses/points, cube colour change, solo indie dev. CTA: "Impact Zero Project - find it on Steam" / end card "IMPACT ZERO PROJECT / ON STEAM". Only say "out now/available now" once the release is confirmed live. No co-op claims (gp_v5 19.5-23.5 still banned). NO timer claims.
+> - Replaces the old Comment-PLAY / App Store / $2.99 CTA and the comment-check chain (user stopped comment checking Oct 31; not restarted).
+> - Format: gameplay-first Reels 10-20 s, hook in first 1-2 s from real footage, 3-7 words per screen, payoff must be in the footage, 1-3 s end card. Render with `python3 tools/render2.py posts/dayNN.json`. Carousels = real screenshots, short text, last slide end card.
+> - Captions: 2-4 short natural lines about one moment + a genuine question + "Impact Zero Project - find it on Steam." + 3-5 accurate hashtags (#ImpactZero #IndieGame #Platformer #GamingReels #IndieDev etc.). No marketing-speak.
+> - Rotate formats A challenge / B failure / C victory / D meme / E curiosity / F dev story. B (failure) needs a real death clip - not in current footage.
+> - Schedule unchanged: Reel 9:00 AM, carousel 11:30 AM, Reel 1:00 PM, Reel 4:30 PM, carousel 6:00 PM, Reel 8:00 PM PT.
+
 # Impact Zero — Instagram production system (@Smzz_220)
 
 > **CHECK FIRST:** if /home/claude/iz/BLOCKER.md exists, follow it (Zapier task limit; queue blocked posts; do not re-alert). When it clears, re-slot the queue into the next day's regular slots instead of posting everything at once (never dump more than 1 post immediately).

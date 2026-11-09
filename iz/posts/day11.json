@@ -1,0 +1,157 @@
+{
+ "day": "2026-11-09",
+ "format": "v2 (Nov 9 creative prompt: gameplay first, 3-7 word text, short captions, Steam CTA)",
+ "fact_rule": "Game = Impact Zero Project on Steam (store.steampowered.com/app/5001270). Verified from the Steam page: 3D obstacle platformer, control a cube, moving obstacles, lasers, shifting platforms, precise jumps, physics-based movement, collectible bonuses for points, cube colour change, solo indie dev, demo available, release date Nov 9 2026. Do not say 'available now' / 'out now' until release is confirmed live. NO timer. No invented stats, reviews or player reactions. No co-op claims.",
+ "reels": {
+  "R041_survive": {
+   "slot": "Mon Nov 9 4:30 PM PT",
+   "format": "A - Impossible challenge",
+   "concept": "Red corridor walls close in, then a run of tiny floating platforms. Viewer judges whether they'd survive.",
+   "segments": [
+    {
+     "src": "gp_v5",
+     "start": 7.3,
+     "end": 19.4
+    },
+    {
+     "src": "gp_v5",
+     "start": 23.5,
+     "end": 27.2
+    }
+   ],
+   "texts": [
+    {
+     "t": [
+      0,
+      2.6
+     ],
+     "text": "Would you *survive* this?"
+    },
+    {
+     "t": [
+      2.6,
+      6.4
+     ],
+     "text": "Tiny platforms. *Precise* jumps."
+    },
+    {
+     "t": [
+      6.4,
+      9.7
+     ],
+     "text": "Then the !lasers."
+    },
+    {
+     "t": [
+      9.7,
+      13.3
+     ],
+     "text": "No room for error."
+    }
+   ],
+   "endcard": {
+    "sub": "WOULD YOU MAKE IT?"
+   },
+   "sound": "Original game audio only (no licensed music added).",
+   "why": "Opens on a tight red corridor - instant tension; ends on a question every viewer can answer.",
+   "caption": "Red walls, tiny platforms, then lasers.\n\nWould you have made it through?\n\nImpact Zero Project - find it on Steam.\n\n#ImpactZero #IndieGame #GamingReels #Platformer #IndieDev"
+  },
+  "R042_lookseasy": {
+   "slot": "Mon Nov 9 8:00 PM PT",
+   "format": "D - Gaming meme",
+   "concept": "Open green path labelled 'Me: this level looks easy', then cut to the lasers and the red barrier - 'The level:'.",
+   "segments": [
+    {
+     "src": "gp_v1",
+     "start": 10.2,
+     "end": 12.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 1.6,
+     "end": 4.6
+    },
+    {
+     "src": "gp_v1",
+     "start": 6.6,
+     "end": 9.6
+    },
+    {
+     "src": "gp_v5",
+     "start": 24,
+     "end": 26.6
+    }
+   ],
+   "texts": [
+    {
+     "t": [
+      0,
+      2.4
+     ],
+     "text": "Me: \"this level looks *easy*\""
+    },
+    {
+     "t": [
+      2.4,
+      3.9
+     ],
+     "text": "The level:"
+    },
+    {
+     "t": [
+      3.9,
+      5.4
+     ],
+     "text": "!Lasers."
+    },
+    {
+     "t": [
+      5.4,
+      8.4
+     ],
+     "text": "Then a !red wall."
+    }
+   ],
+   "endcard": {
+    "sub": "STILL LOOK EASY?"
+   },
+   "sound": "Original game audio only.",
+   "why": "Relatable 'it looked easy' meme gamers share; the footage really does go from calm to lasers.",
+   "caption": "It looked so calm for about three seconds.\n\nBe honest - would you have trusted that green path?\n\nImpact Zero Project - find it on Steam.\n\n#ImpactZero #IndieGame #GamingMemes #Platformer #GamingReels"
+  }
+ },
+ "carousel": {
+  "C021_pickpoison": {
+   "slot": "Mon Nov 9 6:00 PM PT",
+   "format": "E - Curiosity (screenshots)",
+   "concept": "Three real hazards, one per slide; viewer picks the one that gets them first.",
+   "slides": [
+    {
+     "visual": "gp_v5@7.6",
+     "head": "Pick your *poison.*",
+     "sub": ""
+    },
+    {
+     "visual": "gp_v5@27.8",
+     "head": "!Lasers.",
+     "sub": "Thin. Easy to miss."
+    },
+    {
+     "visual": "gp_v5@11.8",
+     "head": "Tiny platforms.",
+     "sub": "Over nothing."
+    },
+    {
+     "visual": "gp_v1@8.2",
+     "head": "A !red wall.",
+     "sub": "Dead ahead."
+    },
+    {
+     "visual": "endcard",
+     "head": "Which one gets you first?"
+    }
+   ],
+   "caption": "Lasers, tiny platforms, or the red wall?\n\nWhich one gets you first?\n\nImpact Zero Project - find it on Steam.\n\n#ImpactZero #IndieGame #Platformer #GamingCommunity #IndieDev"
+  }
+ }
+}
